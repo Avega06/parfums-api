@@ -1,0 +1,25 @@
+{
+  "name": "parfums-app",
+  "scripts": {
+    "dev": "bun --watch src/server.ts",
+    "dev:wrangler": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.4.3",
+    "@libsql/client": "^0.14.0",
+    "@types/bun": "^1.2.2",
+    "chromium-bidi": "^1.2.0",
+    "drizzle-orm": "^0.39.2",
+    "hono": "^4.6.20",
+    "playwright": "^1.50.1",
+    "redis": "^4.7.0",
+    "sqlite3": "^5.1.7",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250109.0",
+    "drizzle-kit": "^0.30.4",
+    "wrangler": "^3.101.0"
+  }
+}

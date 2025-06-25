@@ -1,0 +1,1486 @@
+{
+    "products": [
+        {
+            "brand": "Armaf",
+            "product": "Perfume Odyssey Spectra Rainbow Edition Armaf",
+            "price": 49990,
+            "product_link": "https://cosmetic.cl/collections/perfumes/products/perfume-odyssey-spectra-edp-100-ml-rainbow-edition-armaf",
+            "image": "https:https://cdn.shopify.com/s/files/1/0353/2659/1109/files/png_8abdcbdd-39ea-4ae8-9072-f6fb88901937_200x.png?v=1741879524 200w, https://cdn.shopify.com/s/files/1/0353/2659/1109/files/png_8abdcbdd-39ea-4ae8-9072-f6fb88901937_300x.png?v=1741879524 300w, https://cdn.shopify.com/s/files/1/0353/2659/1109/files/png_8abdcbdd-39ea-4ae8-9072-f6fb88901937_400x.png?v=1741879524 400w, https://cdn.shopify.com/s/files/1/0353/2659/1109/files/png_8abdcbdd-39ea-4ae8-9072-f6fb88901937_600x.png?v=1741879524 600w, https://cdn.shopify.com/s/files/1/0353/2659/1109/files/png_8abdcbdd-39ea-4ae8-9072-f6fb88901937_800x.png?v=1741879524 800w, https://cdn.shopify.com/s/files/1/0353/2659/1109/files/png_8abdcbdd-39ea-4ae8-9072-f6fb88901937_900x.png?v=1741879524 900w, https://cdn.shopify.com/s/files/1/0353/2659/1109/files/png_8abdcbdd-39ea-4ae8-9072-f6fb88901937_1000x.png?v=1741879524 1000w",
+            "type_parfum": "EDP",
+            "shop": "Cosmetic",
+            "volume": "100 ml"
+        },
+        {
+            "brand": "Rasasi",
+            "product": "Rasasi Mens Hawas Black",
+            "price": 42490,
+            "product_link": "https://cosmetic.cl/collections/perfumes/products/rasasi-mens-hawas-black-edp-100-ml",
+            "image": "https:https://cdn.shopify.com/s/files/1/0353/2659/1109/files/png_f9955168-3caf-49b2-ae94-8f968d8f7fa8_200x.png?v=1735585079 200w, https://cdn.shopify.com/s/files/1/0353/2659/1109/files/png_f9955168-3caf-49b2-ae94-8f968d8f7fa8_300x.png?v=1735585079 300w, https://cdn.shopify.com/s/files/1/0353/2659/1109/files/png_f9955168-3caf-49b2-ae94-8f968d8f7fa8_400x.png?v=1735585079 400w, https://cdn.shopify.com/s/files/1/0353/2659/1109/files/png_f9955168-3caf-49b2-ae94-8f968d8f7fa8_600x.png?v=1735585079 600w, https://cdn.shopify.com/s/files/1/0353/2659/1109/files/png_f9955168-3caf-49b2-ae94-8f968d8f7fa8_800x.png?v=1735585079 800w, https://cdn.shopify.com/s/files/1/0353/2659/1109/files/png_f9955168-3caf-49b2-ae94-8f968d8f7fa8_900x.png?v=1735585079 900w, https://cdn.shopify.com/s/files/1/0353/2659/1109/files/png_f9955168-3caf-49b2-ae94-8f968d8f7fa8_1000x.png?v=1735585079 1000w",
+            "type_parfum": "EDP",
+            "shop": "Cosmetic",
+            "volume": "100 ml"
+        },
+        {
+            "product": "Givenchy L'Interdit Absolu Eau de Parfum Intense",
+            "price": 92900,
+            "product_link": "https://comprarenchile.cl/products/givenchy-linterdit-absolu-eau-de-parfum-intense-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Givenchy-L_Interdit-Absolu_Eau_de_Parfum_Intense_80ML.png?v=1738945978&width=500",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Givenchy",
+            "volume": "80ML"
+        },
+        {
+            "product": "Rabanne Fame Intense Recargable",
+            "price": 92900,
+            "product_link": "https://comprarenchile.cl/products/rabanne-fame-edp-intense-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Rabanne-Fame-EDP-Intense-80ML-Recargable-Mujer.png?v=1738363693&width=1080",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Paco Rabanne",
+            "volume": "80ML"
+        },
+        {
+            "product": "Carolina Herrera 212 Men Heroes EDT Laundry Collector Edition Tester",
+            "price": 64990,
+            "product_link": "https://comprarenchile.cl/products/212-men-heroes-tester-collector-edition",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Carolina-Herrera-212-Men-Heroes-Forever-Young-EDT-90ML-Tester-Collector-Edition-Hombre.png?v=1738962841&width=600",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Carolina Herrera",
+            "volume": "90ML"
+        },
+        {
+            "product": "Jean Paul Gaultier Gaultier Divine",
+            "price": 87500,
+            "product_link": "https://comprarenchile.cl/products/jpg-gaultier-divine-edp-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Jean-Paul-Gaultier-Gaultier-Divine-EDP-50ML-Mujer_1.png?v=1738615631&width=800",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Jean Paul Gaultier",
+            "volume": "50ML"
+        },
+        {
+            "product": "Jean Paul Gaultier Le Male Elixir Parfum",
+            "price": 119990,
+            "product_link": "https://comprarenchile.cl/products/jean-paul-gaultier-le-male-elixir-parfum-hombre",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Jean-Paul-Gaultier-Le-Male-Elixir-Parfum-125ML-Hombre.jpg?v=1738615108&width=1100",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Jean Paul Gaultier",
+            "volume": "125ML"
+        },
+        {
+            "product": "Hugo Boss Boss Bottled Triumph Elixir Parfum Intense",
+            "price": 85900,
+            "product_link": "https://comprarenchile.cl/products/hugo-boss-bottled-triumph-elixir-parfum",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Hugo-Boss-Boss-Bottled-Triumph-Elixir-Parfum-Intense-100ML-Hombre.png?v=1738282382&width=1024",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Hugo Boss",
+            "volume": "100ML"
+        },
+        {
+            "product": "Paco Rabanne Lady Million Tester (M)",
+            "price": 59990,
+            "product_link": "https://comprarenchile.cl/products/paco-rabanne-lady-million-mujer-tester",
+            "image": "https://comprarenchile.cl/cdn/shop/products/perfume-lady-million-edp-80ml-mujer-precio.jpg?v=1671185774&width=769",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Paco Rabanne",
+            "volume": "80 ML"
+        },
+        {
+            "product": "Paco Rabanne Olympéa Flora Intense Tester",
+            "price": 66990,
+            "product_link": "https://comprarenchile.cl/products/paco-rabanne-olympea-flora-tester",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Paco-Rabanne-Olympea-Flora-EDP-Intense-80ML-Tester-Mujer.png?v=1738798240&width=1080",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Paco Rabanne",
+            "volume": "80ML"
+        },
+        {
+            "product": "Adolfo Dominguez Agua Fresca Mimosa Tester (M)",
+            "price": 15990,
+            "product_link": "https://comprarenchile.cl/products/perfumes-adolfo-dominguez",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Adolfo-Dominguez-Agua-Fresca-Mimosa-Coriandro-120ML-Tester-Mujer.jpg?v=1723649943&width=750",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Agua brava",
+            "volume": "120 ML"
+        },
+        {
+            "product": "Shakira Rojo Tester",
+            "price": 13990,
+            "product_link": "https://comprarenchile.cl/products/shakira-rojo-edp-80ml-tester",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Shakira-Rojo-EDP-80ML-Tester-Mujer.png?v=1738780583&width=266",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Shakira",
+            "volume": "80ML"
+        },
+        {
+            "product": "Dolce & Gabbana Intenso Pour Homme",
+            "price": 46990,
+            "product_link": "https://comprarenchile.cl/products/dolce-gabbana-intenso-pour-homme",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Dolce-_-Gabbana-Intenso-Pour-Homme-EDP-75ML-Hombre.png?v=1738710227&width=1024",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Dolce & Gabbana",
+            "volume": "75ML"
+        },
+        {
+            "product": "Rabanne Lady Million Set + L/C + Miniatura",
+            "price": 85900,
+            "product_link": "https://comprarenchile.cl/products/rabanne-lady-million-set-estuche-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Rabanne-Lady-Million-Set-EDP-80ML-Locion-corporal-100ml-miniatura-5ml-mujer.png?v=1738369462&width=2000",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Paco Rabanne",
+            "volume": "80ML"
+        },
+        {
+            "product": "Carolina Herrera 212 Vip Rosé Tester",
+            "price": 66990,
+            "product_link": "https://comprarenchile.cl/products/carolina-herrera-212-vip-rose-tester-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Carolina-Herrera-212-Vip-Rose-EDP-80ML-Tester-Mujer.png?v=1738965574&width=1080",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Carolina Herrera",
+            "volume": "80ML"
+        },
+        {
+            "product": "JPG Ultra Male Intense EDT Tester",
+            "price": 82990,
+            "product_link": "https://comprarenchile.cl/products/jpg-ultra-male-intense-tester-hombre-precio",
+            "image": "https://comprarenchile.cl/cdn/shop/products/perfume-ultramale-intense-125ml-hombre-precio.jpg?v=1671185626&width=1300",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "volume": "125 ML"
+        },
+        {
+            "product": "Rabanne Million Gold Intense",
+            "price": 99900,
+            "product_link": "https://comprarenchile.cl/products/rabanne-million-gold-edp-intense-hombre",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Rabanne-Million-Gold-EDP-Intense-100ML-Hombre.jpg?v=1738363413&width=750",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Paco Rabanne",
+            "volume": "100ML"
+        },
+        {
+            "product": "Tommy Hilfiger Tommy Man Vibrant Summer EDT",
+            "price": 29990,
+            "product_link": "https://comprarenchile.cl/products/tommy-vibrant-summer-hombre",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Tommy-Hilfiger-Tommy-Vibrant-Summer-EDT-100ML-Hombre.png?v=1738421700&width=800",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Tommy Bahama",
+            "volume": "100ML"
+        },
+        {
+            "product": "Carolina Herrera 212 Men Sexy EDT Tester",
+            "price": 55990,
+            "product_link": "https://comprarenchile.cl/products/carolina-herrera-212-sexy-men",
+            "image": "https://comprarenchile.cl/cdn/shop/products/212-men-sexy-carolina-herrera-perfume.jpg?v=1652233143&width=300",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Carolina Herrera",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Antonio Banderas Diavolo Gentleman Anniversary Edition EDT Tester Sin Tapa",
+            "price": 9990,
+            "product_link": "https://comprarenchile.cl/products/antonio-banderas-diavolo-gentleman-tester",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Antonio-Banderas-Diavolo-Gentleman-EDT-100ML-Anniversary-Edition-Tester-Sin-Tapa-Hombre.png?v=1739043411&width=400",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Antonio Banderas",
+            "volume": "100ML"
+        },
+        {
+            "product": "Agatha Ruiz De La Prada Look Gold EDT Tester",
+            "price": 9990,
+            "product_link": "https://comprarenchile.cl/products/agatha-look-gold-tester",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Agatha-Ruiz-De-La-Prada-Look-Gold-EDT-80ML-Tester-Mujer.jpg?v=1738788553&width=1000",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Prada",
+            "volume": "80ML"
+        },
+        {
+            "product": "Carolina Herrera CH Men Birds Of Paradise Tester Limited Edition",
+            "price": 69990,
+            "product_link": "https://comprarenchile.cl/products/ch-men-birds-of-paradise-tester",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Carolina-Herrera-CH-Men-Birds-Of-Paradise-Limited-Edition-EDP-100ML-Tester.png?v=1739034469&width=600",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Carolina Herrera",
+            "volume": "100ML"
+        },
+        {
+            "product": "Banderas The Golden Secret EDT Tester",
+            "price": 12990,
+            "product_link": "https://comprarenchile.cl/products/banderas-the-golden-secret-tester-hombre",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Banderas-The-Golden-Secret-EDT-100ML-Tester-Hombre.png?v=1738958515&width=1214",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Victoria´s Secret",
+            "volume": "100ML"
+        },
+        {
+            "product": "Lattafa Oud For Glory",
+            "price": 23990,
+            "product_link": "https://comprarenchile.cl/products/lattafa-badee-al-oud-for-glory-edp-100-ml-h",
+            "image": "https://comprarenchile.cl/cdn/shop/products/Lattafa-Oud-For-Glory-chile.png?v=1671116445&width=810",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Lattafa Bade'e Al Oud Amethyst",
+            "price": 23990,
+            "product_link": "https://comprarenchile.cl/products/lattafa-badee-amethyst",
+            "image": "https://comprarenchile.cl/cdn/shop/products/lattafa-perfumes-badee-al-oud-amethyst-chile.jpg?v=1671186293&width=1896",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Ralph Lauren Ralph's Club Parfum Tester",
+            "price": 44990,
+            "product_link": "https://comprarenchile.cl/products/ralph-lauren-ralphs-club-parfum-tester",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Perfume-Ralph-Lauren-Ralph_s-Club-Parfum-Tester.jpg?v=1683136810&width=1200",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Ralph Lauren",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Lancôme Set Trésor + Crema + Máscara de pestañas",
+            "price": 49990,
+            "product_link": "https://comprarenchile.cl/products/lancome-set-tresor-caja-regalo-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Lancome-set-tresor-edp30ml-crema-50ml-mascara2ml-mujer.jpg?v=1719104235&width=270",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Lancôme",
+            "volume": "30ML"
+        },
+        {
+            "product": "Swiss Army Classic EDT",
+            "price": 27990,
+            "product_link": "https://comprarenchile.cl/products/swiss-army-classic-nuevo-formato",
+            "image": "https://comprarenchile.cl/cdn/shop/products/swiss-army-clasico-perfume-chile.jpg?v=1658348072&width=1024",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Maison Alhambra La Vivacite",
+            "price": 19990,
+            "product_link": "https://comprarenchile.cl/products/la-vita-bella-perfume-arabe-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Maison_Alhambra_La_Vivacite_EDP_100ML.png?v=1734465007&width=641",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Maison Alhambra",
+            "volume": "100ML"
+        },
+        {
+            "product": "Lattafa Mayar",
+            "price": 29990,
+            "product_link": "https://comprarenchile.cl/products/lattafa-mayar-edp-100ml",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Lattafa-mayar-edp-100ml-mujer.png?v=1717614098&width=1080",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "100ML"
+        },
+        {
+            "product": "Lattafa Haya",
+            "price": 29990,
+            "product_link": "https://comprarenchile.cl/products/lattafa-haya-cofre-rosado-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Lattafa-Haya-EDP-100ML-Mujer.png?v=1725585269&width=533",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "100ML"
+        },
+        {
+            "product": "Lattafa Qaed AL Fursan (U)",
+            "price": 19990,
+            "product_link": "https://comprarenchile.cl/products/arabic-perfumes-santago-centro",
+            "image": "https://comprarenchile.cl/cdn/shop/products/perfumes-arabes-chile.jpg?v=1655953663&width=1024",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "90 ML"
+        },
+        {
+            "product": "Lattafa Badee AL Oud Honor & Glory",
+            "price": 29990,
+            "product_link": "https://comprarenchile.cl/products/oud-honor-glory",
+            "image": "https://comprarenchile.cl/cdn/shop/files/NUEVO-LATTAFA-PERFUME.png?v=1703351541&width=2048",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Lattafa Mayar Natural Intense",
+            "price": 29990,
+            "product_link": "https://comprarenchile.cl/products/lattafa-mayar-natural-intense-edp-100ml",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Lattafa-Mayar-Natural-Intense-EDP-100ML-Mujer.png?v=1721848559&width=815",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "100ML"
+        },
+        {
+            "product": "Lattafa Asad (H)",
+            "price": 29990,
+            "product_link": "https://comprarenchile.cl/products/lattafa-asad-arabe-perfumes",
+            "image": "https://comprarenchile.cl/cdn/shop/products/Lattafa-Asad-perfume.png?v=1667846953&width=854",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Lattafa Bade'e Al Oud Noble Blush",
+            "price": 39990,
+            "product_link": "https://comprarenchile.cl/products/lattafa-badee-al-oud-noble-blush-rosado",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Lattafa-Bade_e-Al-Oud-Noble-Blush-EDP-100ML-Mujer.png?v=1734568025&width=374",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "100ML"
+        },
+        {
+            "product": "Armaf Odyssey Homme (H)",
+            "price": 29990,
+            "product_link": "https://comprarenchile.cl/products/perfume-armaf-odyssey-homme-dupe-tom-ford",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Perfume-Armaf-Odyssey-Homme-Hombre.png?v=1707150399&width=1200",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Armaf",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Calvin Klein Ck In2U EDT",
+            "price": 22990,
+            "product_link": "https://comprarenchile.cl/products/calvin-klein-ck-in2u-hombre-precio",
+            "image": "https://comprarenchile.cl/cdn/shop/products/perfume-ck-in2u-edt-100ml-hombre-precio.jpg?v=1658347544&width=988",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Calvin Klein",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Armaf Odyssey Homme Body Spray White Edition",
+            "price": 4990,
+            "product_link": "https://comprarenchile.cl/products/armaf-odyssey-homme-body-spray-white-edition",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Armaf-Odyssey-Homme-Body-Spray-White-Edition-200ML-Hombre.png?v=1739492269&width=2000",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Armaf",
+            "volume": "200ML"
+        },
+        {
+            "product": "Armaf Odyssey Aqua Body Spray Aqua Edition",
+            "price": 4500,
+            "product_link": "https://comprarenchile.cl/products/armaf-odyssey-aqua-body-spray-hombre",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Armaf-Odyssey-Aqua-Body-Spray-Aqua-Edition-200ML-Hombre.webp?v=1739637488&width=700",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Armaf",
+            "volume": "200ML"
+        },
+        {
+            "product": "Armaf Odyssey Tyrant Body Spray Special Edition",
+            "price": 4500,
+            "product_link": "https://comprarenchile.cl/products/armaf-odyssey-tyrant-body-spray-hombre",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Armaf-Odyssey-Tyrant-Special-Edition-Body-Spray-200ML-Hombre.png?v=1739566379&width=800",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Armaf",
+            "volume": "200ML"
+        },
+        {
+            "product": "Armaf Odyssey Aoud Body Spray Aoud Edition",
+            "price": 4990,
+            "product_link": "https://comprarenchile.cl/products/armaf-odyssey-aoud-body-spray-hombre",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Armaf-Odyssey-Aoud-Body-Spray-Aoud-Edition-200ML-Hombre.png?v=1739459101&width=800",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Armaf",
+            "volume": "200ML"
+        },
+        {
+            "product": "Armaf Odyssey Limoni Body Spray Fresh Edition",
+            "price": 6990,
+            "product_link": "https://comprarenchile.cl/products/armaf-odyssey-limoni-body-spray-unisex",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Armaf-Odyssey-Limoni-Fresh-Edition-Body-Spray-200ML-Unisex.png?v=1739457671&width=600",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Armaf",
+            "volume": "200ML"
+        },
+        {
+            "product": "Armaf Odyssey Spectra Body Spray Rainbow Edition",
+            "price": 6990,
+            "product_link": "https://comprarenchile.cl/products/armaf-odyssey-spectra-body-unisex",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Armaf-Odyssey-Spectra-Body-Spray-Rainbow-Edition-200ML-Unisex.png?v=1739458058&width=600",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Armaf",
+            "volume": "200ML"
+        },
+        {
+            "product": "Armaf Odyssey Wild One Body Spray Gold Edition",
+            "price": 4990,
+            "product_link": "https://comprarenchile.cl/products/armaf-odyssey-wild-one-body-spray-hombre",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Armaf-Odyssey-Wild-One-Gold-Edition-Body-Spray-200ML-Hombre.png?v=1739489617&width=800",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Armaf",
+            "volume": "200ML"
+        },
+        {
+            "product": "Armani Code Eau De Parfum",
+            "price": 42990,
+            "product_link": "https://comprarenchile.cl/products/perfume-armani-code-eau-de-parfum-aroma-dulce-hombre",
+            "image": "https://comprarenchile.cl/cdn/shop/products/armani-code-eau-de-parfum.jpg?v=1658347468&width=500",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Giorgio Armani",
+            "volume": "30 ML"
+        },
+        {
+            "product": "Lancome La Vie Est Belle en Rose EDT (M)",
+            "price": 39900,
+            "product_link": "https://comprarenchile.cl/products/perfume-lancome-la-vie-est-belle-en-rose-aroma-dulce",
+            "image": "https://comprarenchile.cl/cdn/shop/products/la-vie-est-belle.jpg?v=1658347868&width=470",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Lancome",
+            "volume": "50 ML"
+        },
+        {
+            "product": "Giorgio Armani Acqua di Gio (H)",
+            "price": 36900,
+            "product_link": "https://comprarenchile.cl/products/nuevo-giorgio-armani-gio",
+            "image": "https://comprarenchile.cl/cdn/shop/products/Giorgio-Armani-Acqua-di-Gio.png?v=1669866120&width=752",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Giorgio Beverly Hills",
+            "volume": "40 ML"
+        },
+        {
+            "product": "Lancome Idole L'Intense Tester",
+            "price": 45900,
+            "product_link": "https://comprarenchile.cl/products/perfume-lancome-idole-lintense-aroma-dulce-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/products/2014268837900_2.jpg?v=1658347891&width=750",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Lancome",
+            "volume": "50 ML"
+        },
+        {
+            "product": "Giorgio Armani Acqua Di Gio EDT",
+            "price": 69990,
+            "product_link": "https://comprarenchile.cl/products/perfume-acqua-di-gio-hombre-chile-precio",
+            "image": "https://comprarenchile.cl/cdn/shop/products/armani-gio-perfume-chile.jpg?v=1652233215&width=800",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Giorgio Beverly Hills",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Armani Acqua Di Gio Profondo",
+            "price": 89990,
+            "product_link": "https://comprarenchile.cl/products/perfume-gio-profondo-edp-hombre-chile",
+            "image": "https://comprarenchile.cl/cdn/shop/products/ACQUA-DI-GIO-PERFUNDO-75-ML.jpg?v=1652233408&width=900",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Acqua Di Parma",
+            "volume": "75 ML"
+        },
+        {
+            "product": "Armaf Club de Nuit Milestone (U)",
+            "price": 36990,
+            "product_link": "https://comprarenchile.cl/products/armaf-club-de-nuit-milestone-creed",
+            "image": "https://comprarenchile.cl/cdn/shop/products/Perfume-Armaf-Milestone-Unisex.jpg?v=1677874833&width=770",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Armaf",
+            "volume": "105 ML"
+        },
+        {
+            "product": "Mossimo Reloj Análogo Mujer + Collar (M)",
+            "price": 24990,
+            "product_link": "https://comprarenchile.cl/products/mossimo-reloj-mujer-collar",
+            "image": "https://comprarenchile.cl/cdn/shop/products/Mossimo-Reloj-Analogo-Mujer_Collar.jpg?v=1678217960&width=800",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile"
+        },
+        {
+            "product": "Prada L'Homme EDT",
+            "price": 99990,
+            "product_link": "https://comprarenchile.cl/products/prada-lhomme-edt-50ml",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Prada-LHomme-EDT-50ML-Hombre.png?v=1726197550&width=500",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Prada",
+            "volume": "50ML"
+        },
+        {
+            "product": "Carolina Herrera CH Men EDT",
+            "price": 49990,
+            "product_link": "https://comprarenchile.cl/products/carolina-herrera-ch-men-precio",
+            "image": "https://comprarenchile.cl/cdn/shop/products/perfume-ch-men-edt-50ml-precio.jpg?v=1671185451&width=1352",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Carolina Herrera",
+            "volume": "50 ML"
+        },
+        {
+            "product": "Guerlain Paris L'Homme Ideal (H)",
+            "price": 99990,
+            "product_link": "https://comprarenchile.cl/products/guerlain-paris-lhomme-ideal",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Guerlain-L-Homme-Ideal.jpg?v=1731161406&width=800",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Guerlain",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Narciso Rodriguez Narciso Cristal",
+            "price": 36990,
+            "product_link": "https://comprarenchile.cl/products/narciso-cristal",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Narciso-Cristal-PERFUM.png?v=1712954455&width=600",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Narciso Rodriguez",
+            "volume": "30 ML"
+        },
+        {
+            "product": "Naseem Wild Impulse Aqua Parfum",
+            "price": 29990,
+            "product_link": "https://comprarenchile.cl/products/naseem-wild-impulse-aqua-parfum-75ml",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Naseem-wild-impulse-aqua-parfum-75ml-sin-alcohol-unisex.png?v=1722364259&width=460",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Naseem",
+            "volume": "75ML"
+        },
+        {
+            "product": "Maison Alhambra Russe Leather (H)",
+            "price": 45000,
+            "product_link": "https://comprarenchile.cl/products/perfume-maison-alhambra-russe-leather",
+            "image": "https://comprarenchile.cl/cdn/shop/products/Maison-Alhambra-Russe-Leather-SANTIAGO.jpg?v=1666415530&width=194",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Maison Alhambra",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Hummer Hummer H2 EDT",
+            "price": 19990,
+            "product_link": "https://comprarenchile.cl/products/original-hummer-hummer-precio",
+            "image": "https://comprarenchile.cl/cdn/shop/files/HUMMER-PERFUME.png?v=1739736504&width=1200",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "volume": "125 ML"
+        },
+        {
+            "product": "Benetton Colors de Benetton Woman Rose EDT Tester",
+            "price": 11990,
+            "product_link": "https://comprarenchile.cl/products/benetton-woman-rose-tester-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Benetton-Colors-De-Benetton-Woman-Rose-EDT-80ML-Tester-Mujer.png?v=1738715851&width=800",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Benetton",
+            "volume": "80ML"
+        },
+        {
+            "product": "Prada Candy Florale EDT (M)",
+            "price": 36990,
+            "product_link": "https://comprarenchile.cl/products/perfume-prada-candy-florale-barato",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Perfume-Prada-Candy-Florale-EDT.jpg?v=1683055583&width=900",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Prada",
+            "volume": "50 ML"
+        },
+        {
+            "product": "Versace Pour Femme Dylan Turquoise set EDT + + B/S + B/G",
+            "price": 59900,
+            "product_link": "https://comprarenchile.cl/products/versace-dylan-turquoise-set",
+            "image": "https://comprarenchile.cl/cdn/shop/files/versace-tuquoise-set-min.jpg?v=1715784048&width=800",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Versace",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Diesel D By Diesel EDT + 2 Gel de Ducha (U)",
+            "price": 55990,
+            "product_link": "https://comprarenchile.cl/products/perfume-diesel-d-by-diesel-hombre",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Perfume-Diesel-D-By-Diesel-Estuche-Unisex.png?v=1710171065&width=1000",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Diesel",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Antonio Banderas Set Diavolo EDT + After Shave Balm",
+            "price": 9990,
+            "product_link": "https://comprarenchile.cl/products/antonio-banderas-set-diavolo-edt-50ml-after-shave-balm-75ml",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Antonio-Banderas-Set-Diavolo-EDT-50ML-After-Shave-Balm-75ML-Hombre.png?v=1725478227&width=1200",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Antonio Banderas",
+            "volume": "50ML"
+        },
+        {
+            "product": "Prada La Femme L'eau EDT (M)",
+            "price": 42990,
+            "product_link": "https://comprarenchile.cl/products/perfume-prada-la-femme-leau-envios",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Perfume-Prada-La-Femme-L_eau-EDP.jpg?v=1682789047&width=600",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Prada",
+            "volume": "50 ML"
+        },
+        {
+            "product": "Paco Rabanne Paco EDT Tester",
+            "price": 26990,
+            "product_link": "https://comprarenchile.cl/products/perfume-paco-rabanne-paco-tester",
+            "image": "https://comprarenchile.cl/cdn/shop/products/paco-by-paco-perfume-tester-hombre.png?v=1658347992&width=498",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Paco Rabanne",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Tous Baby Tous Eau de Cologne Tester Sin Tapa",
+            "price": 19990,
+            "product_link": "https://comprarenchile.cl/products/tous-baby-tous-eau-de-cologne-100ml-tester-sin-tapa",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Tous-Baby-Tous-EDC-100ML-Unisex-Tester-Sin-Tapa.jpg?v=1723647982&width=340",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Tous",
+            "volume": "100ML"
+        },
+        {
+            "product": "Thierry Mugler Alien Goddess (M)",
+            "price": 78900,
+            "product_link": "https://comprarenchile.cl/products/thierry-mugler-alien-goddess-chile",
+            "image": "https://comprarenchile.cl/cdn/shop/products/Perfume-Thierry-Mugler-Alien-Goddess-EDP.jpg?v=1681938410&width=600",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Thierry Mugler",
+            "volume": "90 ML"
+        },
+        {
+            "product": "Afnan 9PM Rebel",
+            "price": 43990,
+            "product_link": "https://comprarenchile.cl/products/perfume-afnan-9pm-rebel-santiago",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Afnan-9-PM-Rebel-CHILE.png?v=1739743330&width=637",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Afnan",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Rasasi Hawas Fire",
+            "price": 39990,
+            "product_link": "https://comprarenchile.cl/products/rasasi-hawas-fire-santiago-chile",
+            "image": "https://comprarenchile.cl/cdn/shop/files/rasasi-hawas-fire-men-edp-santiago.png?v=1739746015&width=800",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Rasasi",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Maison Alhambra Panther Pour Homme",
+            "price": 19990,
+            "product_link": "https://comprarenchile.cl/products/panther-pour-homme-edp-100ml",
+            "image": "https://comprarenchile.cl/cdn/shop/files/maison-alhambra-panther-pour-homme-edp-100ml.png?v=1722966566&width=1080",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Maison Alhambra",
+            "volume": "100ML"
+        },
+        {
+            "product": "Asdaaf Ameerat Al Arab Prive Rose (M)",
+            "price": 19990,
+            "product_link": "https://comprarenchile.cl/products/ameerat-al-arab-prive-rose",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Ameerat-Al-Arab-Prive-Rose.jpg?v=1731099741&width=1000",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Asdaaf",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Paris Corner Milano Platina",
+            "price": 19990,
+            "product_link": "https://comprarenchile.cl/products/pendora-scents-milano-platina",
+            "image": "https://comprarenchile.cl/cdn/shop/files/pendora-scents-milano-platina-min.jpg?v=1715188319&width=800",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Jo Milano",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Maison Alhambra My Party",
+            "price": 19990,
+            "product_link": "https://comprarenchile.cl/products/maison-alhambra-my-party-clon-mon-paris-ysl",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Maison-Alhambra-My-Party-EDP-100ML-Mujer.png?v=1738022568&width=1080",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Maison Alhambra",
+            "volume": "100ML"
+        },
+        {
+            "product": "Fragrance World French Avenue Spectre Ghost",
+            "price": 37990,
+            "product_link": "https://comprarenchile.cl/products/fragrance-world-french-avenue-spectre-ghost-perfume-arabe-hombre",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Fragrance-World-French-Avenue-Spectre-Ghost-EDP-80ML-Hombre.png?v=1734359026&width=1474",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Fragrance World",
+            "volume": "80ML"
+        },
+        {
+            "product": "Armaf Odyssey Homme",
+            "price": 39990,
+            "product_link": "https://comprarenchile.cl/products/armaf-odyssey-homme-clon-arabe-tom-ford-noir-extreme",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Armaf-Odyssey-Homme-EDP-200ML-Hombre.png?v=1734568833&width=1200",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Armaf",
+            "volume": "200ML"
+        },
+        {
+            "product": "Lattafa Her Confession",
+            "price": 42990,
+            "product_link": "https://comprarenchile.cl/products/lattafa-her-confession-arabe-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Lattafa-Pride-Her-Confession-EDP-100ML-Mujer.png?v=1732989050&width=1080",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "100ML"
+        },
+        {
+            "product": "Armaf Nomad The Wanderer",
+            "price": 33990,
+            "product_link": "https://comprarenchile.cl/products/armaf-nomad-the-wanderer-clon-arabe-sauvage-dior",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Armaf-Nomad-The-Wanderer-EDP-100ML-Hombre.png?v=1738254066&width=1000",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Armaf",
+            "volume": "100ML"
+        },
+        {
+            "product": "Lattafa Khamrah Body Spray",
+            "price": 4500,
+            "product_link": "https://comprarenchile.cl/products/lattafa-khamrah-body-spray-200ml",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Lattafa-Khamrah-Body-Spray-200ML-Unisex.png?v=1722982663&width=600",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "200ML"
+        },
+        {
+            "product": "Maison Alhambra Maître de Blue",
+            "price": 19990,
+            "product_link": "https://comprarenchile.cl/products/maitre-de-blue-edp-100ml",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Maison-Alhambra-maitre-de-blue-edp-100ml-hombre.png?v=1722967758&width=937",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Maison Alhambra",
+            "volume": "100ML"
+        },
+        {
+            "product": "Maison Alhambra Fortnight for Men",
+            "price": 19990,
+            "product_link": "https://comprarenchile.cl/products/fortnight-for-men-edp-100ml",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Maison-Alhambra-Fortnight-for-Men-EDP-100ml-Hombre.png?v=1722968548&width=800",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Maison Alhambra",
+            "volume": "100ML"
+        },
+        {
+            "product": "Maison Alhambra Porto Neroli (U)",
+            "price": 22990,
+            "product_link": "https://comprarenchile.cl/products/perfume-arabe-porto-neroli-tom-ford",
+            "image": "https://comprarenchile.cl/cdn/shop/products/Maison-Alhambra-Porto-Neroli-perfume.jpg?v=1663123088&width=641",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Maison Alhambra",
+            "volume": "80 ML"
+        },
+        {
+            "product": "Lattafa Yara Body Spray",
+            "price": 4500,
+            "product_link": "https://comprarenchile.cl/products/lattafa-yara-body-spray-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Lattafa-Yara-Body-Spray-200ML-Mujer.png?v=1734399731&width=480",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "200ML"
+        },
+        {
+            "product": "Fragrance World Just Wardi",
+            "price": 22990,
+            "product_link": "https://comprarenchile.cl/products/fragrance-world-just-wardi-edp-arabe-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Fragrance-World-Just-Wardi-EDP-100ML-Mujer.png?v=1725657181&width=800",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Fragrance World",
+            "volume": "100ML"
+        },
+        {
+            "product": "Jo Milano Paris Levante Intense",
+            "price": 33990,
+            "product_link": "https://comprarenchile.cl/products/jo-milano-paris-levante-intense-unisex",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Jo-Milano-Paris-Levante-Intense-EDP-100ML-Unisex.png?v=1734746768&width=500",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Jo Milano",
+            "volume": "100ML"
+        },
+        {
+            "product": "Asdaaf Atlantis Coral (M)",
+            "price": 19990,
+            "product_link": "https://comprarenchile.cl/products/asdaaf-atlantis-coral",
+            "image": "https://comprarenchile.cl/cdn/shop/files/asdaaf-atlantis-coral.jpg?v=1731340857&width=586",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Asdaaf",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Fragrance World Just Aswad",
+            "price": 19990,
+            "product_link": "https://comprarenchile.cl/products/fragrance-world-just-aswad-clon-arabe-sauvage-elixir-dior",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Fragrance-World-Just-Aswad-EDP-100ML-Hombre.png?v=1734302216&width=624",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Fragrance World",
+            "volume": "100ML"
+        },
+        {
+            "product": "Maison Alhambra Léonie Intense",
+            "price": 19990,
+            "product_link": "https://comprarenchile.cl/products/maison-alhambra-leonie-intense-edp-100ml",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Maison-Alhambra-Leonie-Intense-EDP-100ML-Mujer.png?v=1734025790&width=610",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Maison Alhambra",
+            "volume": "100ML"
+        },
+        {
+            "product": "Hugo Boss Energise EDT (H)",
+            "price": 32990,
+            "product_link": "https://comprarenchile.cl/products/hugo-boss-energise-hombre-precio",
+            "image": "https://comprarenchile.cl/cdn/shop/products/hugo-boss-energise-perfume-min.jpg?v=1653066069&width=600",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Hugo Boss",
+            "volume": "75 ML"
+        },
+        {
+            "product": "Ariana Grande Sweet Like Candy +7. + G/D",
+            "price": 44900,
+            "product_link": "https://comprarenchile.cl/products/ariana-grande-sweet-like-candy-giftset-collection-estuche-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Ariana-Grande-Sweet-Like-Candy-Giftset-Collection-EDP-100ML-Miniatura-Parfum-7.5ML-Gel-Ducha-75ML-Mujer.png?v=1734014253&width=900",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Ariana Grande",
+            "volume": "100ML"
+        },
+        {
+            "product": "Lattafa Asdaaf Andaleeb Flora",
+            "price": 19990,
+            "product_link": "https://comprarenchile.cl/products/lattafa-asdaaf-andaleeb-flora-arabe-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Lattafa-Asdaaf-Andaleeb-Flora-EDP-100ML-Unisex.jpg?v=1734389312&width=1000",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "100ML"
+        },
+        {
+            "product": "Jo Milano Paris Levante Blue Noir",
+            "price": 33990,
+            "product_link": "https://comprarenchile.cl/products/jo-milano-paris-levante-blue-noir-hombre",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Jo-Milano-Paris-Levante-Blue-Noir-EDP-100ML-Hombre.png?v=1734746217&width=500",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Jo Milano",
+            "volume": "100ML"
+        },
+        {
+            "product": "Lattafa Fakhar Body Spray",
+            "price": 3990,
+            "product_link": "https://comprarenchile.cl/products/lattafa-fakhar-body-spray",
+            "image": "https://comprarenchile.cl/cdn/shop/files/fakhar-body-spray.png?v=1722639526&width=600",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "200ML"
+        },
+        {
+            "product": "Lancome La Vie Est Belle Iris Absolu Tester",
+            "price": 29990,
+            "product_link": "https://comprarenchile.cl/products/lancome-la-vie-est-belle-iris-absolu-tester",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Perfume-Lancome-La-Vie-Est-Belle-Iris-Absolu-Tester.jpg?v=1711123734&width=800",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Lancome",
+            "volume": "50 ML"
+        },
+        {
+            "product": "Lattafa Afeef",
+            "price": 44990,
+            "product_link": "https://comprarenchile.cl/products/lattafa-afeef-perfume-arabe-unisex",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Lattafa-Afeef-EDP-100ML-Unisex.png?v=1738021130&width=700",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "100ML"
+        },
+        {
+            "product": "Maison Alhambra Megara",
+            "price": 25990,
+            "product_link": "https://comprarenchile.cl/products/maison-alhambra-megara-clon-arabe-liquo-orto-parisi",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Maison-Alhambra-Megara-EDP-50ML-Unisex.png?v=1733845348&width=381",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Maison Alhambra",
+            "volume": "50ML"
+        },
+        {
+            "product": "Ariana Grande Ari Giftset Collection + Miniatura 7. + G/D",
+            "price": 44990,
+            "product_link": "https://comprarenchile.cl/products/ariana-grande-ari-giftset-collection-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Ariana-Grande-Ari-Giftset-Collection-EDP-100ML-Miniatura-Parfum-7.5ML-Gel-Ducha-75ML.png?v=1733781185&width=900",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Ariana Grande",
+            "volume": "100ML"
+        },
+        {
+            "product": "Paris Hilton Heiress Body Mist",
+            "price": 9990,
+            "product_link": "https://comprarenchile.cl/products/heiress-body-mist-mujer-precio",
+            "image": "https://comprarenchile.cl/cdn/shop/products/Perfume-Heiress-Body-mist-236ml-Mujer-Precio.jpg?v=1671185800&width=1500",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Paris Corner",
+            "volume": "236 ML"
+        },
+        {
+            "product": "Paris Hilton Can Can Body Mist",
+            "price": 8990,
+            "product_link": "https://comprarenchile.cl/products/can-can-body-mist-mujer-precios",
+            "image": "https://comprarenchile.cl/cdn/shop/products/BodyMistCancan236mlMujerPrecio.png?v=1671185796&width=1499",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Paris Corner",
+            "volume": "236 ML"
+        },
+        {
+            "product": "D&G Light Blue Italian Love EDT Tester (M)",
+            "price": 59900,
+            "product_link": "https://comprarenchile.cl/products/precio-dolce-gabbana-light-blue-italian-love",
+            "image": "https://comprarenchile.cl/cdn/shop/products/dolce-gabbana-light-blue-italian-love-tester.jpg?v=1658348265&width=857",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Burberry My Burberry Blush",
+            "price": 99900,
+            "product_link": "https://comprarenchile.cl/products/my-burberry-blush-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Burberry-My-Burberry-Blush-EDP-90ML-Mujer.png?v=1739915686&width=2331",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Burberry",
+            "volume": "90ML"
+        },
+        {
+            "product": "Fragrance World Versus Océan Bleu",
+            "price": 19990,
+            "product_link": "https://comprarenchile.cl/products/versus-ocean-bleu-clon-arabe-dylan-blue-versace",
+            "image": "https://comprarenchile.cl/cdn/shop/files/vesrus-ocean-blue-perfume.png?v=1739917838&width=713",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Fragrance World",
+            "volume": "100ML"
+        },
+        {
+            "product": "Burberry My Burberry Black Parfum",
+            "price": 86990,
+            "product_link": "https://comprarenchile.cl/products/my-burberry-black-parfum-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Burberry-My-Burberry-Black-Parfum-90ML-Mujer.png?v=1739914217&width=607",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Burberry",
+            "volume": "90ML"
+        },
+        {
+            "product": "Lattafa Yara",
+            "price": 22990,
+            "product_link": "https://comprarenchile.cl/products/lattafa-yara-arabe-perfume",
+            "image": "https://comprarenchile.cl/cdn/shop/files/yara-perfume-chile.png?v=1696038538&width=600",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Lattafa Hayaati (U)",
+            "price": 22990,
+            "product_link": "https://comprarenchile.cl/products/perfume-lattafa-hayaati-dupe-hawas-rasasi",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Perfume-Lattafa-Hayaati-Unisex.jpg?v=1699031191&width=1024",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Lattafa Sehr (U)",
+            "price": 42990,
+            "product_link": "https://comprarenchile.cl/products/lattafa-sehr-edp",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Lattafa-Sehr.png?v=1729896162&width=423",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Armaf Club de Nuit Intense Man Perfume Body Spray",
+            "price": 3990,
+            "product_link": "https://comprarenchile.cl/products/club-de-nuit-intense-man-perfume-body-spray",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Armaf-Club-de-Nuit-Intense-Man-Bodyspray-200ML-Hombre.png?v=1739646368&width=1000",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Armaf",
+            "volume": "200ML"
+        },
+        {
+            "product": "Armaf Club de Nuit Urban Man Elixir Perfume Body Spray",
+            "price": 3990,
+            "product_link": "https://comprarenchile.cl/products/club-de-nuit-urban-man-elixir-body-sprayl",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Armaf-Club-de-Nuit-Urban-Man-Elixir-Perfume-Body-Spray-200ML-Hombre.png?v=1739646799&width=800",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Armaf",
+            "volume": "200ML"
+        },
+        {
+            "product": "Agatha de la Ruiz de la Prada Gotas de Color EDT Tester( Sin Caja)",
+            "price": 9900,
+            "product_link": "https://comprarenchile.cl/products/agatha-de-la-ruiz-de-la-prada-gotas-de-color",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Perfume-Agatha-de-la-Ruiz-de-la-Prada-Gotas-deColor.png?v=1690498776&width=800",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Prada",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Antonio Banderas The Icon EDT Tester",
+            "price": 14400,
+            "product_link": "https://comprarenchile.cl/products/perfume-antonio-banderas-the-icon-tester",
+            "image": "https://comprarenchile.cl/cdn/shop/products/the-icon-edt-100-ml-perfume-hombre.jpg?v=1671185253&width=825",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Antonio Banderas",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Antonio Banderas Mediterraneo EDT Tester",
+            "price": 9990,
+            "product_link": "https://comprarenchile.cl/products/perfume-antonio-banderas-mediterraneo-tester",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Perfume-Antonio-Banderas-Mediterraneo-Tester.png?v=1690479190&width=1280",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Antonio Banderas",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Puig Quorum EDT Tester",
+            "price": 9990,
+            "product_link": "https://comprarenchile.cl/products/puig-quorum-tester-hombre-precio",
+            "image": "https://comprarenchile.cl/cdn/shop/products/perfume-quorum-tester-edt-100ml-hombre-precio.jpg?v=1652232966&width=1024",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Puig",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Banderas The Icon The Perfume Tester",
+            "price": 17990,
+            "product_link": "https://comprarenchile.cl/products/banderas-the-icon-edp-tester",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Banderas-The-Icon-The-Perfume-EDP-100ML-Tester-Hombre.png?v=1740080928&width=1080",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Antonio Banderas",
+            "volume": "100ML"
+        },
+        {
+            "product": "Carolina Herrera Good Girl Sparkling Ice Tester",
+            "price": 99900,
+            "product_link": "https://comprarenchile.cl/products/good-girl-sparkling-ice-tester-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Carolina-Herrera-Good-Girl-Sparkling-Ice_-Tester.jpg?v=1740086150&width=1600",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Carolina Herrera",
+            "volume": "80ML"
+        },
+        {
+            "product": "Agatha Ruiz De La Prada Look Kool EDT Tester",
+            "price": 9990,
+            "product_link": "https://comprarenchile.cl/products/agatha-ruiz-de-la-prada-look-kool-tester",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Agatha-Ruiz-De-La-Prada-Look-Kool-EDT-80ML-Tester-Mujer.png?v=1740094987&width=600",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Prada",
+            "volume": "80ML"
+        },
+        {
+            "product": "Agatha Ruiz De La Prada Look EDT Tester",
+            "price": 9990,
+            "product_link": "https://comprarenchile.cl/products/agatha-ruiz-de-la-prada-look-tester-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Agatha-Ruiz-De-La-Prada-Look-EDT-80ML-Tester-Mujer.png?v=1740093764&width=375",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Prada",
+            "volume": "80ML"
+        },
+        {
+            "product": "Banderas The Secret Absolu Tester",
+            "price": 14990,
+            "product_link": "https://comprarenchile.cl/products/banderas-the-secret-absolu-tester-hombre",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Banderas-The-Secret-Absolu-EDP-100ML-Tester-Hombre.png?v=1740092903&width=800",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Victoria´s Secret",
+            "volume": "100ML"
+        },
+        {
+            "product": "Jean Paul Classique X-MAS EDT Tester",
+            "price": 69990,
+            "product_link": "https://comprarenchile.cl/products/jean-paul-classique-x-mas",
+            "image": "https://comprarenchile.cl/cdn/shop/files/JEAN-PAUL-XMAS-PERFUME-NAVIDAD-min.jpg?v=1740100726&width=375",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Jean Paul Gaultier",
+            "volume": "100ML"
+        },
+        {
+            "product": "Hermès Barénia Tester",
+            "price": 75990,
+            "product_link": "https://comprarenchile.cl/products/hermes-barenia-tester-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Hermes-Barenia-EDP-100ML-Tester-Mujer.jpg?v=1739997361&width=800",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "volume": "100ML"
+        },
+        {
+            "product": "Dolce & Gabbana Light Blue EDT",
+            "price": 53990,
+            "product_link": "https://comprarenchile.cl/products/perfume-d-g-light-blue-mujer-precio",
+            "image": "https://comprarenchile.cl/cdn/shop/products/resize-1628260131997617195PerfumeLightBlueEDT100MLMujerPrecio.jpg?v=1652232941&width=1024",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Dolce & Gabbana",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Diesel Plus Plus EDT",
+            "price": 13990,
+            "product_link": "https://comprarenchile.cl/products/diesel-plus-plus-perfume",
+            "image": "https://comprarenchile.cl/cdn/shop/products/diesel-plus-plus-blanco-hombre.png?v=1658347656&width=612",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Diesel",
+            "volume": "75 ML"
+        },
+        {
+            "product": "Britney Spears Fantasy Intense",
+            "price": 25990,
+            "product_link": "https://comprarenchile.cl/products/perfume-britney-spears-fantasy-intense",
+            "image": "https://comprarenchile.cl/cdn/shop/products/britney-spears-fantasy-intense.jpg?v=1667950976&width=800",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Britney Spears",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Dolce & Gabbana Light Blue Intense",
+            "price": 59990,
+            "product_link": "https://comprarenchile.cl/products/comprar-dolce-gabbana",
+            "image": "https://comprarenchile.cl/cdn/shop/products/Dolce-_-Gabbana-Light-Blue-Intense-EDP-100-Ml.jpg?v=1662096871&width=514",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Dolce & Gabbana",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Paco Rabanne Fame Perfum",
+            "price": 89990,
+            "product_link": "https://comprarenchile.cl/products/rabanne-robot-perfum",
+            "image": "https://comprarenchile.cl/cdn/shop/files/PACO-RABANNE-MUJER-ROBOT.jpg?v=1740095321&width=750",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Paco Rabanne",
+            "volume": "80 ML"
+        },
+        {
+            "product": "Maison Alhambra Sceptre Malachite",
+            "price": 26990,
+            "product_link": "https://comprarenchile.cl/products/maison-alhambra-sceptre-malachite",
+            "image": "https://comprarenchile.cl/cdn/shop/files/sceptre-Malachite.jpg?v=1713822711&width=800",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Maison Alhambra",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Britney Spears Midnight Fantasy",
+            "price": 22990,
+            "product_link": "https://comprarenchile.cl/products/perfume-britney-spears-midnight-fantasy-mujer-precio",
+            "image": "https://comprarenchile.cl/cdn/shop/products/perfume-midnight-fantasy-edp-100ml-mujer-precio.jpg?v=1658347523&width=608",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Britney Spears",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Lancome Idole Aura Lumineuse Tester",
+            "price": 39990,
+            "product_link": "https://comprarenchile.cl/products/precio-lancome-idole-aura-tester",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Lidole-Aura-Tester-Edp-Lumineuse.png?v=1719624925&width=1080",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Lancome",
+            "volume": "50 ML"
+        },
+        {
+            "product": "Atralia Absolute Noir",
+            "price": 26990,
+            "product_link": "https://comprarenchile.cl/products/atralia-absolute-noir",
+            "image": "https://comprarenchile.cl/cdn/shop/files/ABOLUTE-NOIR_1.jpg?v=1730159293&width=720",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Dolce & Gabbana Pour Homme Intenso Tester",
+            "price": 49990,
+            "product_link": "https://comprarenchile.cl/products/intenso-pour-homme-edp-125ml-tester",
+            "image": "https://comprarenchile.cl/cdn/shop/files/dolce-gabbana-intenso-edp-125ml-hombre-tester.jpg?v=1716850398&width=1000",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Dolce & Gabbana",
+            "volume": "125ML"
+        },
+        {
+            "product": "Giorgio Armani Acqua Di Gio Profondo Tester",
+            "price": 86990,
+            "product_link": "https://comprarenchile.cl/products/giorgio-armani-acqua-di-gio-profondo-edp-100ml-tester",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Giorgio-Armani-Acqua-Di-Gio-Profondo-EDP-100ML-Tester-Hombre.png?v=1734018751&width=635",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Giorgio Beverly Hills",
+            "volume": "100ML"
+        },
+        {
+            "product": "Lattafa Nebras",
+            "price": 32990,
+            "product_link": "https://comprarenchile.cl/products/lattafa-nebras-edp-100ml",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Lattafa-Nebras-EDP-100ML-Unisex.png?v=1719523933&width=527",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "100ML"
+        },
+        {
+            "product": "DKNY Be Delicious Body Mist",
+            "price": 11990,
+            "product_link": "https://comprarenchile.cl/products/be-delicious-body-mist-manzana-verde-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/dkny-be-delicious-body-mist-250ml-mujer.png?v=1727220832&width=1080",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "DKNY",
+            "volume": "250ML"
+        },
+        {
+            "product": "Jean Paul Gaultier Le Male Elixir Parfum",
+            "price": 94900,
+            "product_link": "https://comprarenchile.cl/products/jean-paul-gaultier-le-male-elixir-parfum",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Jean-Paul-Gaultier-Le-Male-Elixir-Parfum-75ML-Hombre.jpg?v=1740004266&width=1100",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Jean Paul Gaultier",
+            "volume": "75ML"
+        },
+        {
+            "product": "Marc Jacobs Daisy EDT",
+            "price": 59990,
+            "product_link": "https://comprarenchile.cl/products/marc-jacobs-daisy-edt-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Marc-Jacobs-Daisy-EDT-100ML-Mujer.png?v=1733495897&width=800",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Marc Jacobs",
+            "volume": "100ML"
+        },
+        {
+            "product": "Paris Hilton For Men EDT Tester",
+            "price": 19990,
+            "product_link": "https://comprarenchile.cl/products/paris-hilton-for-men-tester",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Paris-Hilton-For-Men-EDT-100ML-Tester-Hombre.png?v=1739374724&width=900",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Paris Corner",
+            "volume": "100ML"
+        },
+        {
+            "product": "Lattafa Liam Blue Shine (U)",
+            "price": 29990,
+            "product_link": "https://comprarenchile.cl/products/lattafa-liam-blue-shine-edp-100ml-u",
+            "image": "https://comprarenchile.cl/cdn/shop/files/LATTAFA-LIAM-BLUE-SHINE-EDP-100ML-UNISEX.jpg?v=1717611608&width=1000",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "100ML"
+        },
+        {
+            "product": "Maison Alhambra Your Touch For Men",
+            "price": 19990,
+            "product_link": "https://comprarenchile.cl/products/maison-alhambra-your-touch-for-men-arabe",
+            "image": "https://comprarenchile.cl/cdn/shop/files/your-touch-perfume.png?v=1727806558&width=1200",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Maison Alhambra",
+            "volume": "100ML"
+        },
+        {
+            "product": "Lattafa Bade'e Al Oud Amethyst Body Spray",
+            "price": 4990,
+            "product_link": "https://comprarenchile.cl/products/lattafa-badee-al-oud-amethyst-body-spray-200ml",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Lattafa-Badee-Al-Oud-Amethyst-Body-Spray-200ml-Unisex.png?v=1722981987&width=480",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "200ML"
+        },
+        {
+            "product": "Antonio Banderas Estuche The Icon Elixir + DEO",
+            "price": 22990,
+            "product_link": "https://comprarenchile.cl/products/antonio-banderas-estuche-the-icon-elixir-edp-100ml-deo-150ml",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Antonio-Banderas-Estuche-The-Icon-Elixir-EDP-100ML-DEO-150ML.jpg?v=1723069522&width=500",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Antonio Banderas",
+            "volume": "100ML"
+        },
+        {
+            "product": "Lancome Idole Nectar",
+            "price": 31990,
+            "product_link": "https://comprarenchile.cl/products/nuevo-perfume-lancome-idole-nectar",
+            "image": "https://comprarenchile.cl/cdn/shop/products/Lancome-Idole-Nectar.jpg?v=1668140645&width=451",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Lancome",
+            "volume": "25 ML"
+        },
+        {
+            "product": "Asdaaf Atlantis (H)",
+            "price": 19990,
+            "product_link": "https://comprarenchile.cl/products/asdaaf-atlantis",
+            "image": "https://comprarenchile.cl/cdn/shop/files/asdaaf-atlantis.jpg?v=1731436982&width=600",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Asdaaf",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Hermès Eau Des Merveilles Bleue EDT Tester",
+            "price": 59990,
+            "product_link": "https://comprarenchile.cl/products/hermes-eau-des-merveilles-bleue-edt-100ml-tester",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Hermes-Eau-Des-Merveilles-Bleue-EDT-100ML-Tester-Mujer.png?v=1739999749&width=500",
+            "type_parfum": "EDT",
+            "shop": "Comprar en Chile",
+            "brand": "Merve",
+            "volume": "100ML"
+        },
+        {
+            "product": "Armaf Odyssey Mega",
+            "price": 29990,
+            "product_link": "https://comprarenchile.cl/products/perfume-armaf-odyssey-mega-y-yvs-hombre",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Perfume-Armaf-Odyssey-Mega-hombre.jpg?v=1707154238&width=1080",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Armaf",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Bvlgari Allegra Fiori D´Amore Miniatura",
+            "price": 19990,
+            "product_link": "https://comprarenchile.cl/products/bvlgari-allegra-fiori-d-amore-edp-10ml-miniatura",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Bvlgari-Allegra-Fiori-D_Amore-EDP-10ML-Mujer-Miniatura.jpg?v=1721341494&width=600",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Bvlgari",
+            "volume": "10ML"
+        },
+        {
+            "product": "Afnan 9PM",
+            "price": 32990,
+            "product_link": "https://comprarenchile.cl/products/afnan-9pm-hombre-negro",
+            "image": "https://comprarenchile.cl/cdn/shop/files/AFNAN-9-PM-HOMBRE-NEGRO-min.jpg?v=1695393019&width=800",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Afnan",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Lattafa Bade'e Al Oud Sublime",
+            "price": 29990,
+            "product_link": "https://comprarenchile.cl/products/lattafa-sublime-perfume",
+            "image": "https://comprarenchile.cl/cdn/shop/files/lattafa-sublime.png?v=1695392948&width=500",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Ard Al Zaafaran By Lattafa",
+            "volume": "100 ML"
+        },
+        {
+            "product": "Tous LoveMe The Onyx Parfum (M)",
+            "price": 59990,
+            "product_link": "https://comprarenchile.cl/products/perfume-tous-loveme-oso-negro-mujer",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Perfume-Tous-LoveMe-Mujer-Oso-negro.jpg?v=1705945824&width=1500",
+            "type_parfum": "Other",
+            "shop": "Comprar en Chile",
+            "brand": "Tous",
+            "volume": "90 ML"
+        },
+        {
+            "product": "Maison Alhambra Victorioso",
+            "price": 19990,
+            "product_link": "https://comprarenchile.cl/products/victorioso-arabe-hombre",
+            "image": "https://comprarenchile.cl/cdn/shop/files/Maison-Alhambra-Victorioso-EDP-100ML-Hombre.png?v=1741818361&width=1067",
+            "type_parfum": "EDP",
+            "shop": "Comprar en Chile",
+            "brand": "Maison Alhambra",
+            "volume": "100ML"
+        }
+    ]
+}

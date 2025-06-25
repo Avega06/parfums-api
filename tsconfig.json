@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@modules/*": ["src/modules/*"],
+      "@adapters/*" : ["src/adapters/*"],
+      "@helpers/*" : ["src/helpers/*"],
+      "@db/*" : ["src/db/*"],
+    },
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "lib": [
+      "ESNext", "DOM"
+    ],
+    "types": [
+      "@cloudflare/workers-types/2023-07-01",
+      "bun"
+    ],
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx"
+  },
+}
