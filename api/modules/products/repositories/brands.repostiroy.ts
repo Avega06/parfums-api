@@ -1,6 +1,6 @@
 import { eq } from "drizzle-orm";
-import { db } from "src/db";
-import { parfumBrandsTable } from "src/db/schema";
+import { db } from "api/db";
+import { parfumBrandsTable } from "api/db/schema";
 import { seed, Brand } from "../configs";
 
 export class BrandsRepository {

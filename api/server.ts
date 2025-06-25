@@ -1,14 +1,14 @@
 import { Hono } from "hono";
 
-import { getClientConnection } from "@adapters/redis.adapter";
+import { getClientConnection } from "api/adapters/redis.adapter";
 import { logger } from "hono/logger";
-import { parfumsController } from "@modules/products/controllers";
-import { scrapperController } from "@modules/scrapper/controllers";
+import { parfumsController } from "api/modules/products/controllers";
+import { scrapperController } from "api/modules/scrapper/controllers";
 import { cors } from "hono/cors";
+import { handle } from "hono/vercel";
 
 const port = Bun.env.PORT ?? 3000;
 const app = new Hono();
-
 app.use(
   "*",
   cors({
@@ -37,6 +37,8 @@ getClientConnection()
   .catch((err) => console.error("Error to connect with Redis:", err));
 
 console.log("Server listen on port", port);
+
+export default handle(app);
 
 Bun.serve({
   fetch: app.fetch, // Pasa el handler de Hono

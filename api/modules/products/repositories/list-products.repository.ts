@@ -7,10 +7,10 @@ import {
   parfumTypeTable,
   shopTable,
   TransactionType,
-} from "@db/schema";
+} from "api/db/schema";
 import { Product, ProductUpdate } from "../interfaces";
 import { and, eq, sql } from "drizzle-orm";
-import { db } from "@db/index";
+import { db } from "api/db/index";
 
 export class ListProductsRepository {
   async createListProduct(

@@ -3,7 +3,7 @@ import { zValidator } from "@hono/zod-validator";
 import {
   ListProductsParamsSchema,
   ProductsSchema,
-} from "@modules/products/validators";
+} from "api/modules/products/validators";
 import { BrandsRepository, ProductRepository } from "../repositories";
 import { ProductsService } from "../services";
 import { ListProductsRepository } from "../repositories/list-products.repository";

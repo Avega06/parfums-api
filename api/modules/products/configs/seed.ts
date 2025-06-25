@@ -1,5 +1,5 @@
-import { parfumBrandsTable, shopTable } from "@db/schema";
-import { db } from "@db/index";
+import { parfumBrandsTable, shopTable } from "api/db/schema";
+import { db } from "api/db/index";
 
 export interface Brand {
   name: string;

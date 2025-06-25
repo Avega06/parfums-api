@@ -3,9 +3,9 @@ import {
   parfumTypeTable,
   shopTable,
   TransactionType,
-} from "@db/schema";
+} from "api/db/schema";
 import { eq, sql } from "drizzle-orm";
-import { db } from "@db/index";
+import { db } from "api/db/index";
 import { Product } from "../interfaces";
 
 export class ProductRepository {

@@ -1,0 +1,19 @@
+{
+    "build": {
+        "env": {
+            "NODE_ENV": "production"
+        }
+    },
+    "functions": {
+        "api/**.ts": {
+            "runtime": "edge"
+        }
+    },
+    "rewrites": [
+        {
+            "source": "/api/(.*)",
+            "destination": "/api"
+        }
+    ],
+    "ignoreCommand": "rm -rf node_modules/playwright"
+}

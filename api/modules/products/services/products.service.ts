@@ -1,8 +1,7 @@
 import { RedisClientType } from "redis";
-import { getClientConnection } from "@adapters/redis.adapter";
-import { db } from "@db/index";
-import { customLogger } from "src/server";
-import { scrapperModel } from "@modules/scrapper/configs/scrapping.model";
+import { getClientConnection } from "api/adapters/redis.adapter";
+import { db } from "api/db/index";
+import { scrapperModel } from "api/modules/scrapper/configs/scrapping.model";
 import { Product, ProductCached, ProductUpdate } from "../interfaces";
 import {
   cleanText,
@@ -10,7 +9,7 @@ import {
   parseCurrencyWithLocale,
   slugify,
   stringMatched,
-} from "@helpers/index";
+} from "api/helpers/index";
 import {
   ProductRepository,
   BrandsRepository,

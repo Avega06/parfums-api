@@ -2,14 +2,14 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@modules/*": ["src/modules/*"],
-      "@adapters/*" : ["src/adapters/*"],
-      "@helpers/*" : ["src/helpers/*"],
-      "@db/*" : ["src/db/*"],
+      "@modules/*": ["api/modules/*"],
+      "@adapters/*" : ["api/adapters/*"],
+      "@helpers/*" : ["api/helpers/*"],
+      "@db/*" : ["api/db/*"],
     },
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "Bundler",
+    "moduleResolution": "node",
     "strict": true,
     "skipLibCheck": true,
     "lib": [
@@ -22,4 +22,5 @@
     "jsx": "react-jsx",
     "jsxImportSource": "hono/jsx"
   },
+  "include": ["api"]
 }

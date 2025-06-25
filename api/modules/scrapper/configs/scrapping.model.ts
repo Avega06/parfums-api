@@ -1,4 +1,4 @@
-import { ScrapperData } from "@modules/scrapper/interfaces";
+import { ScrapperData } from "api/modules/scrapper/interfaces";
 
 export const scrapperModel: ScrapperData = {
   scraping_config: [

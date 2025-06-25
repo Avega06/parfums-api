@@ -1,0 +1,4 @@
+entrypoints = ["src/server.ts"] # Ajusta según tu app
+outdir = "dist"
+target = "bun"                 # 👈 CRUCIAL: evita target "browser"
+
