@@ -101,7 +101,7 @@ export class ListProductsRepository {
       .select({ totalProducts: countProductTable.total_products })
       .from(countProductTable)
       .where(eq(countProductTable.id, "total_row"));
-    const pagesQuantity = Math.round(
+    const pagesQuantity = Math.ceil(
       totalproductsCount.at(0)?.totalProducts! / limit
     );
 
