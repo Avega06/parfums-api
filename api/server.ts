@@ -12,7 +12,7 @@ const app = new Hono();
 app.use(
   "*",
   cors({
-    origin: "http://localhost:4200",
+    origin: "http://parfums-app-murex.vercel.app",
     allowMethods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
   })
