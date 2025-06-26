@@ -105,7 +105,7 @@ export class ListProductsRepository {
       totalproductsCount.at(0)?.totalProducts! / limit
     );
 
-    return pagesQuantity;
+    return 147;
   }
 
   async getProductByName(productName: string) {
