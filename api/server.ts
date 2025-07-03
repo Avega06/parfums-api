@@ -12,6 +12,7 @@ const app = new Hono();
 const allowedOrigins = [
   "https://f3ghhw6s-4200.brs.devtunnels.ms",
   "https://parfums-app-murex.vercel.app",
+  "https://parfums-app.netlify.app/",
   "http://localhost:4200",
   "http://localhost:5000",
   "http://127.0.0.1:4200",
