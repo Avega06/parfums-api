@@ -4,9 +4,14 @@ import {
   ListProductsParamsSchema,
   ProductsSchema,
 } from "api/modules/products/validators";
-import { BrandsRepository, ProductRepository } from "../repositories";
+import {
+  BrandsRepository,
+  ProductRepository,
+  ShopInfoRepository,
+} from "../repositories";
 import { ProductsService } from "../services";
 import { ListProductsRepository } from "../repositories/list-products.repository";
+import { ShopService } from "../services/shops.service";
 
 export const parfumsController = new Hono();
 
@@ -19,6 +24,9 @@ const productsService = new ProductsService(
   brandsRepository,
   listProductsRepository
 );
+
+const shopInfoRepository = new ShopInfoRepository();
+const shopService = new ShopService(shopInfoRepository);
 
 parfumsController.get(
   "/",
@@ -53,7 +61,7 @@ parfumsController.get("/product_term/:term", async (c: Context) => {
 parfumsController.get("/shop/:name", async (c: Context) => {
   const name = c.req.param("name");
 
-  const shop = await productsService.getShopByName(name);
+  const shop = await shopInfoRepository.getShopInfoByName(name);
 
   return c.json(shop);
 });

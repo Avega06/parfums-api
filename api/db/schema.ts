@@ -44,6 +44,16 @@ export const shopTable = sqliteTable("shops", {
   deletedAt: text("deleted_at"),
 });
 
+export const shopInfoView = sqliteTable("shop_info", {
+  shopId: text("shop_id").notNull(),
+  name: text("name").notNull(),
+  address: text("address"),
+  isDeleted: integer("is_deleted").notNull(),
+  deletedAt: text("deleted_at"),
+  typeId: integer("type_id").notNull(),
+  type: text("type").notNull(),
+});
+
 export const listTable = sqliteTable("list_parfums", {
   listId: text("list_id")
     .primaryKey()
