@@ -48,6 +48,7 @@ export const shopInfoView = sqliteTable("shop_info", {
   shopId: text("shop_id").notNull(),
   name: text("name").notNull(),
   address: text("address"),
+  shopLink: text("shop_link"),
   isDeleted: integer("is_deleted").notNull(),
   deletedAt: text("deleted_at"),
   typeId: integer("type_id").notNull(),
