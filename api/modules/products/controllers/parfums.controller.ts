@@ -12,6 +12,7 @@ import {
 import { ProductsService } from "../services";
 import { ListProductsRepository } from "../repositories/list-products.repository";
 import { ShopService } from "../services/shops.service";
+import { BrandsService } from "../services/brands.service";
 
 export const parfumsController = new Hono();
 
@@ -19,10 +20,12 @@ const productRepository = new ProductRepository();
 const brandsRepository = new BrandsRepository();
 const listProductsRepository = new ListProductsRepository();
 
+const brandsService = new BrandsService(brandsRepository);
+
 const productsService = new ProductsService(
   productRepository,
-  brandsRepository,
-  listProductsRepository
+  brandsService,
+  listProductsRepository,
 );
 
 const shopInfoRepository = new ShopInfoRepository();
@@ -32,10 +35,19 @@ parfumsController.get(
   "/",
   zValidator("query", ListProductsParamsSchema),
   async (c: Context) => {
-    const { page, limit } = ListProductsParamsSchema.parse(c.req.query());
-    const result = await productsService.getProductListPaginated(page, limit);
+    const { page, limit, filters } = ListProductsParamsSchema.parse(
+      c.req.query(),
+    );
+
+    console.log(filters.shop);
+
+    const result = await productsService.getProductListPaginated(
+      page,
+      limit,
+      filters,
+    );
     return c.json({ result });
-  }
+  },
 );
 
 parfumsController.get("/product/:term", async (c: Context) => {
@@ -73,5 +85,5 @@ parfumsController.post(
     const { products } = await c.req.json();
     const newProducts = await productsService.saveProducts(products);
     return c.json({ products: newProducts });
-  }
+  },
 );

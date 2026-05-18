@@ -3,6 +3,54 @@ import { ScrapperData } from "api/modules/scrapper/interfaces";
 export const scrapperModel: ScrapperData = {
   scraping_config: [
     {
+      website_name: "MZ Perfumes",
+      website_url: "https://www.mzperfumes.cl/all",
+      elementList: {
+        element_name: "products",
+        selector: ".row.theme-section__content",
+        attribute: "list",
+      },
+      target_elements: [
+        {
+          element_name: "product",
+          selector: ".product-block__name",
+          attribute: "text",
+        },
+        {
+          element_name: "price",
+          selector: ".product-block__price",
+          attribute: "price",
+        },
+        {
+          element_name: "product_link",
+          selector: "a.product-block__anchor",
+          attribute: "href",
+        },
+        {
+          element_name: "image",
+          selector: ".product-block__image",
+          attribute: "src",
+        },
+      ],
+      pagination: {
+        enabled: true,
+        next_page_selector: "li[rel='next'] a",
+        max_pages: 15,
+        pages_url: "https://www.mzperfumes.cl/all?page=",
+      },
+      popup: {
+        enabled: false,
+      },
+      linkUrl: {
+        isRequired: true,
+        url: "https://www.mzperfumes.cl",
+      },
+      protocol: "https:",
+      scroll_options: {
+        height: 250,
+      },
+    },
+    {
       website_name: "Cosmetic",
       website_url: "https://cosmetic.cl/collections/perfumes",
       elementList: {
@@ -49,55 +97,6 @@ export const scrapperModel: ScrapperData = {
       linkUrl: {
         isRequired: true,
         url: "https://cosmetic.cl",
-      },
-    },
-    {
-      website_name: "Mz Perfumes",
-      website_url: "https://mzperfumes.cl/tienda/",
-      elementList: {
-        element_name: "products",
-        selector: ".product-grid-item",
-        attribute: "list",
-      },
-      target_elements: [
-        {
-          element_name: "product",
-          selector: "h3.wd-entities-title",
-          attribute: "text",
-        },
-        {
-          element_name: "price",
-          selector: "span.price",
-          attribute: "price",
-        },
-        {
-          element_name: "product_link",
-          selector: "a.product-image-link",
-          attribute: "href",
-        },
-        {
-          element_name: "sold_out",
-          selector: "span.out-of-stock.product-label",
-          attribute: "text",
-        },
-        {
-          element_name: "image",
-          selector:
-            ".attachment-woocommerce_thumbnail.size-woocommerce_thumbnail",
-          attribute: "src",
-        },
-      ],
-      pagination: {
-        enabled: true,
-        next_page_selector: "a.next",
-        max_pages: 64,
-        pages_url: "https://mzperfumes.cl/tienda/page",
-      },
-      popup: {
-        enabled: false,
-      },
-      linkUrl: {
-        isRequired: false,
       },
     },
     {

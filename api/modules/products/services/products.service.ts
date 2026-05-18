@@ -1,8 +1,17 @@
 import { RedisClientType } from "redis";
 import { getClientConnection } from "api/adapters/redis.adapter";
 import { db } from "api/db/index";
-import { scrapperModel } from "api/modules/scrapper/configs/scrapping.model";
-import { Product, ProductCached, ProductUpdate } from "../interfaces";
+
+import { type BrandsService } from "./brands.service";
+import { ProductRepository, ListProductsRepository } from "../repositories";
+
+import {
+  Product,
+  ProductCached,
+  ProductFilters,
+  ProductUpdate,
+} from "../interfaces";
+
 import {
   cleanText,
   normalizeUrl,
@@ -10,21 +19,17 @@ import {
   slugify,
   stringMatched,
 } from "api/helpers/index";
-import {
-  ProductRepository,
-  BrandsRepository,
-  ListProductsRepository,
-} from "../repositories";
+
+import { scrapperModel } from "api/modules/scrapper/configs/scrapping.model";
 
 export class ProductsService {
   #websiteConfig = scrapperModel.scraping_config;
   private redisClient!: RedisClientType;
-  #brands: Set<string> = new Set();
 
   constructor(
     private productRepository: ProductRepository,
-    private brandRepository: BrandsRepository,
-    private listProductsRepository: ListProductsRepository
+    private brandsService: BrandsService,
+    private listProductsRepository: ListProductsRepository,
   ) {
     this.initRedis();
   }
@@ -42,17 +47,13 @@ export class ProductsService {
     const newProducts: Product[] = [];
 
     for (const product of products) {
-      let processedProduct = product;
-      if (product.brand) {
-        this.setBrands(product.brand);
-      } else {
-        processedProduct = await this.setBrandsFromProducts(product);
-      }
+      const processedProduct =
+        await this.brandsService.addBrandsByProducts(product);
 
       const cleanedProduct = await this.cleanProductsData(processedProduct);
 
       const productKey = `product:${slugify(cleanedProduct.product)}:${slugify(
-        cleanedProduct.shop
+        cleanedProduct.shop,
       )}`;
       const cached = await this.redisClient.get(productKey);
 
@@ -66,22 +67,22 @@ export class ProductsService {
 
         const result = await this.validateProductToUpdate(
           cleanedProduct,
-          productCached
+          productCached,
         );
 
         if (result) {
           console.log(
-            `Clave de Redis para ${cleanedProduct.product}: ${productKey}`
+            `Clave de Redis para ${cleanedProduct.product}: ${productKey}`,
           );
           console.log(
             `Producto ${cleanedProduct.product} encontrado en caché:`,
-            productCached
+            productCached,
           );
           console.log("resultado", result);
           console.log("cleaned (antes de guardar en caché)", cleanedProduct);
           console.log(
             "productCached (antes de guardar en caché)",
-            productCached
+            productCached,
           );
           console.log("Resultado de la validación:", result, productKey);
           await this.redisClient.set(productKey, JSON.stringify(result));
@@ -91,64 +92,8 @@ export class ProductsService {
       newProducts.push(cleanedProduct);
     }
 
-    await this.saveBrands();
+    await this.brandsService.saveBrands();
     return newProducts;
-  }
-
-  async setBrands(brand: string) {
-    if (this.#brands.has(brand)) return;
-
-    this.#brands.add(brand);
-  }
-
-  async saveBrands() {
-    try {
-      const brandsToInsert = Array.from(this.#brands).map((brand) => ({
-        name: brand,
-      }));
-
-      await this.brandRepository.insertBrands(brandsToInsert);
-    } catch (error) {
-      throw new Error(`${error}`);
-    }
-  }
-
-  async setBrandsFromProducts(parfum: Product) {
-    const allBrands = await this.brandRepository.getBrands();
-    const { product } = parfum;
-    const parenthesisRegex = /\(.*?\)/g;
-
-    const parfumNameCleaned = cleanText(
-      product,
-      parenthesisRegex
-    ).toLowerCase();
-
-    let earliestIndex = Infinity;
-    let selectedBrand: string | null = null;
-
-    allBrands.forEach(({ name }) => {
-      const significantWords = name
-        .toLowerCase()
-        .split(" ")
-        .filter((word) => word.length > 3);
-
-      significantWords.forEach((word) => {
-        const index = parfumNameCleaned.indexOf(word);
-        if (index !== -1 && index < earliestIndex) {
-          earliestIndex = index;
-          selectedBrand = name;
-        }
-      });
-    });
-
-    if (selectedBrand) {
-      parfum.brand = selectedBrand;
-    }
-    if (!parfum.brand) {
-      //customLogger("This products has not a brand, check db:", product);
-    }
-
-    return parfum;
   }
 
   async cleanProductsData(parfum: Product): Promise<Product> {
@@ -183,19 +128,13 @@ export class ProductsService {
   async addProduct(product: Product, productKey: string) {
     let brandId: string;
     try {
-      if (product.brand) {
-        const brandResult = await this.brandRepository.getBrandWithName(
-          product.brand
-        );
-
-        brandId = brandResult!.brandId ?? null;
-      }
+      brandId = (await this.brandsService.getBrandByProduct(product)) ?? "";
 
       await db.transaction(async (tx) => {
         const productId = await this.productRepository.createProduct(
           product,
           brandId,
-          tx
+          tx,
         );
 
         // console.log("productDetails", productId, product);
@@ -204,7 +143,7 @@ export class ProductsService {
           await this.listProductsRepository.createListProduct(
             product,
             productId!,
-            tx
+            tx,
           );
 
         await this.redisClient.set(productKey, JSON.stringify(productDetail));
@@ -218,7 +157,7 @@ export class ProductsService {
 
   async validateProductToUpdate(
     product: Product,
-    productCached: ProductCached
+    productCached: ProductCached,
   ) {
     // console.log("validando producto", product, productCached);
     const normalizedPrice = Number(product.price || 0);
@@ -251,15 +190,15 @@ export class ProductsService {
     console.log(
       "Datos a actualizar en la base de datos:",
       productToUpdate,
-      productCached.detailId
+      productCached.detailId,
     );
     // Actualizar en la base de datos mediante el repositorio
     await this.listProductsRepository.updateListProduct(
       productToUpdate,
-      productCached.detailId
+      productCached.detailId,
     );
     console.log(
-      `Producto con detailId ${productCached.detailId} actualizado en la base de datos.`
+      `Producto con detailId ${productCached.detailId} actualizado en la base de datos.`,
     );
 
     // Retornar la fusión de datos cacheados actualizados y nuevos
@@ -274,12 +213,14 @@ export class ProductsService {
   async getProductListPaginated(
     page: number,
     limit: number = 20,
-    term?: string
+    filters: ProductFilters,
+    term?: string,
   ) {
     return await this.listProductsRepository.getListProductPaginated(
       page,
       limit,
-      term
+      term!,
+      filters,
     );
   }
 
@@ -287,7 +228,7 @@ export class ProductsService {
     return await this.listProductsRepository.getProductByName(productName);
   }
   async getProductByTerm(term: string) {
-    return await this.productRepository.getProductByTerm(term);
+    return await this.listProductsRepository.getProductByTerm(term);
   }
 
   async getShopByName(shopName: string) {
@@ -296,7 +237,7 @@ export class ProductsService {
 
   filterLinkWebsites() {
     const linkedWebsites = this.#websiteConfig.filter(
-      (website) => website.linkUrl.isRequired
+      (website) => website.linkUrl.isRequired,
     );
 
     return linkedWebsites;

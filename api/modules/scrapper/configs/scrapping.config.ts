@@ -34,7 +34,7 @@ export const scrappData = async () => {
             // Verificar si el selector principal existe
             if (!(await selectorExists(page, config.elementList.selector))) {
               console.error(
-                `❌ Selector no encontrado: ${config.elementList.selector}`
+                `❌ Selector no encontrado: ${config.elementList.selector}`,
               );
               continue;
             }
@@ -55,7 +55,7 @@ export const scrappData = async () => {
             }
 
             console.log(
-              `Completada extracción de: ${config.website_name}, ${products.length} productos`
+              `Completada extracción de: ${config.website_name}, ${products.length} productos`,
             );
           } catch (error) {
             console.error(`Error procesando ${config.website_name}: ${error}`);
@@ -91,7 +91,7 @@ const initScrapper = async () => {
 // Funciones de utilidad
 const selectorExists = async (
   page: Page,
-  selector: string
+  selector: string,
 ): Promise<boolean> => {
   const exists = await page.$(selector);
   return !!exists;
@@ -99,14 +99,14 @@ const selectorExists = async (
 
 const handlePopup = async (
   page: Page,
-  config: ScrapingConfig
+  config: ScrapingConfig,
 ): Promise<void> => {
   if (!config.popup?.enabled) return;
 
   try {
     const boton = await page.waitForSelector(
       config.popup.button_close_selector!,
-      { timeout: 5000 }
+      { timeout: 5000 },
     );
     await boton.click();
     console.log("Popup cerrado exitosamente");
@@ -120,7 +120,7 @@ const extractProducts = async (
   page: Page,
   config: ScrapingConfig,
   selector: string,
-  options: ExtractOptions = {}
+  options: ExtractOptions = {},
 ): Promise<ProductData[]> => {
   const { target_elements, website_name } = config;
   const { timeoutMs = 1500000 } = options;
@@ -198,7 +198,7 @@ const extractProducts = async (
           return extractedData;
         });
       },
-      { target_elements, website_name }
+      { target_elements, website_name },
     );
 
     // Aplicar timeout
@@ -239,7 +239,7 @@ const validatedDuplicateProducts = (products: ProductData[]) => {
 // Estrategia 1: Extracción con paginación
 const extractWithPagination = async (
   page: Page,
-  config: ScrapingConfig
+  config: ScrapingConfig,
 ): Promise<ProductData[]> => {
   let allProducts: ProductData[] = [];
   const { elementList, pagination } = config;
@@ -256,8 +256,8 @@ const extractWithPagination = async (
         .waitForSelector(elementList.selector, { timeout: 10000 })
         .catch((e) =>
           console.log(
-            `Advertencia: timeout esperando selector en página ${pageNumber}`
-          )
+            `Advertencia: timeout esperando selector en página ${pageNumber}`,
+          ),
         );
 
       // Extraer productos de la página actual
@@ -267,16 +267,16 @@ const extractWithPagination = async (
         elementList.selector,
         {
           timeoutMs: 15000,
-        }
+        },
       );
 
       if (products.length === 0) {
         console.log(
-          `No se encontraron productos en la página ${pageNumber} o timeout alcanzado`
+          `No se encontraron productos en la página ${pageNumber} o timeout alcanzado`,
         );
       } else {
         console.log(
-          `Extraídos ${products.length} productos de la página ${pageNumber}`
+          `Extraídos ${products.length} productos de la página ${pageNumber}`,
         );
         allProducts = allProducts.concat(products);
       }
@@ -286,7 +286,7 @@ const extractWithPagination = async (
         try {
           const nextButton = await page.waitForSelector(
             pagination.next_page_selector!,
-            { timeout: 5000 }
+            { timeout: 5000 },
           );
           await Promise.all([
             page.waitForNavigation({ timeout: 10000 }).catch(() => {}),
@@ -297,7 +297,7 @@ const extractWithPagination = async (
           console.log(
             `No se pudo navegar a la página ${
               pageNumber + 1
-            }, finalizando paginación`
+            }, finalizando paginación`,
           );
           break;
         }
@@ -305,7 +305,7 @@ const extractWithPagination = async (
     }
 
     console.log(
-      `Extracción con paginación completada. Total: ${allProducts.length} productos`
+      `Extracción con paginación completada. Total: ${allProducts.length} productos`,
     );
     return allProducts;
   } catch (error) {
@@ -317,7 +317,7 @@ const extractWithPagination = async (
 // Estrategia 2: Extracción con scroll infinito
 const extractWithScroll = async (
   page: Page,
-  config: ScrapingConfig
+  config: ScrapingConfig,
 ): Promise<ProductData[]> => {
   console.log("Iniciando extracción por scroll mejorado");
 
@@ -335,7 +335,7 @@ const extractWithScroll = async (
 
     // Scroll al fondo
     await page.evaluate(() => {
-      window.scrollBy(0, window.innerHeight);
+      window.scrollBy(0, config.scroll_options?.height || window.innerHeight);
     });
 
     await page.waitForTimeout(waitAfterScroll);
@@ -343,7 +343,7 @@ const extractWithScroll = async (
     // Contar productos después de scroll
     const currentCount = await page.$$eval(
       elementList.selector,
-      (elements) => elements.length
+      (elements) => elements.length,
     );
 
     console.log(`Productos detectados: ${currentCount}`);
@@ -351,7 +351,7 @@ const extractWithScroll = async (
     if (currentCount === lastCount) {
       sameCountTimes++;
       console.log(
-        `No hay nuevos productos: ${sameCountTimes}/${stabilizationChecks}`
+        `No hay nuevos productos: ${sameCountTimes}/${stabilizationChecks}`,
       );
 
       if (sameCountTimes >= stabilizationChecks) {
@@ -396,7 +396,7 @@ const extractWithScroll = async (
 const extractInSegments = async (
   page: Page,
   config: ScrapingConfig,
-  estimatedTotal?: number
+  estimatedTotal?: number,
 ): Promise<ProductData[]> => {
   const { elementList } = config;
   let allProducts: ProductData[] = [];
@@ -430,7 +430,7 @@ const extractInSegments = async (
         const endIndex = offset + currentSize;
 
         console.log(
-          `Procesando segmento ${offset + 1}-${endIndex} de ${elementsCount}`
+          `Procesando segmento ${offset + 1}-${endIndex} de ${elementsCount}`,
         );
 
         // Construir selector específico para este segmento
@@ -441,7 +441,7 @@ const extractInSegments = async (
         // Extraer este segmento con timeout adaptativo según tamaño
         const segmentTimeout = Math.min(
           Math.max(currentSize * 200, 3000),
-          15000
+          15000,
         );
         const segmentProducts = await extractProducts(
           page,
@@ -449,19 +449,19 @@ const extractInSegments = async (
           segmentSelector,
           {
             timeoutMs: segmentTimeout,
-          }
+          },
         );
 
         if (segmentProducts.length > 0) {
           console.log(
-            `Extraídos ${segmentProducts.length} productos del segmento`
+            `Extraídos ${segmentProducts.length} productos del segmento`,
           );
           allProducts = allProducts.concat(segmentProducts);
         } else {
           console.log(
             `No se pudieron extraer productos del segmento ${
               offset + 1
-            }-${endIndex}`
+            }-${endIndex}`,
           );
         }
 
@@ -474,7 +474,7 @@ const extractInSegments = async (
     }
 
     console.log(
-      `Extracción por segmentos completada. Total: ${allProducts.length} productos`
+      `Extracción por segmentos completada. Total: ${allProducts.length} productos`,
     );
     return allProducts;
   } catch (error) {

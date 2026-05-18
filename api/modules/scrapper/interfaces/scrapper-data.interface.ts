@@ -23,6 +23,7 @@ export interface ScrapingConfig {
   popup: Popup;
   linkUrl: LinkUrl;
   protocol?: string;
+  scroll_options?: scroll_options;
 }
 
 export interface Pagination {
@@ -30,6 +31,10 @@ export interface Pagination {
   next_page_selector?: string;
   max_pages?: number;
   pages_url?: string;
+}
+
+export interface scroll_options {
+  height: number;
 }
 
 export interface LinkUrl {
