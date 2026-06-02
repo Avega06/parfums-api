@@ -24,9 +24,4 @@ export enum SoldOut {
   SoldOut = "Sold out",
 }
 
-export enum TypeParfum {
-  Edc = "EDC",
-  Edp = "EDP",
-  Edt = "EDT",
-  Other = "Other",
-}
+export type TypeParfum = "EDC" | "EDP" | "EDT" | "Other";

@@ -12,12 +12,17 @@ export class ProductRepository {
   async createProduct(product: Product, brandId: string, tx: TransactionType) {
     let parfumId: string | undefined;
 
+    console.log({ product });
     const typeResult = await db
       .select()
       .from(parfumTypeTable)
       .where(eq(parfumTypeTable.name, product.type_parfum));
 
+    console.log(typeResult);
+
     const typeId = typeResult.at(0)?.typeId ?? null;
+
+    // console.log("typeId", typeId);
 
     const productValue = {
       name: product.product!,

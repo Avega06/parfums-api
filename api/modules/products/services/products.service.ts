@@ -10,6 +10,7 @@ import {
   ProductCached,
   ProductFilters,
   ProductUpdate,
+  TypeParfum,
 } from "../interfaces";
 
 import {
@@ -61,8 +62,10 @@ export class ProductsService {
         // console.log(
         //   `Producto ${cleanedProduct.product} no encontrado en caché.`
         // );
+        console.assert("Create Product");
         await this.addProduct(cleanedProduct, productKey);
       } else {
+        console.assert("Update Product");
         let productCached = JSON.parse(cached!) as ProductCached;
 
         const result = await this.validateProductToUpdate(
@@ -71,20 +74,20 @@ export class ProductsService {
         );
 
         if (result) {
-          console.log(
-            `Clave de Redis para ${cleanedProduct.product}: ${productKey}`,
-          );
-          console.log(
-            `Producto ${cleanedProduct.product} encontrado en caché:`,
-            productCached,
-          );
-          console.log("resultado", result);
-          console.log("cleaned (antes de guardar en caché)", cleanedProduct);
-          console.log(
-            "productCached (antes de guardar en caché)",
-            productCached,
-          );
-          console.log("Resultado de la validación:", result, productKey);
+          // console.log(
+          //   `Clave de Redis para ${cleanedProduct.product}: ${productKey}`,
+          // );
+          // console.log(
+          //   `Producto ${cleanedProduct.product} encontrado en caché:`,
+          //   productCached,
+          // );
+          // console.log("resultado", result);
+          // console.log("cleaned (antes de guardar en caché)", cleanedProduct);
+          // console.log(
+          //   "productCached (antes de guardar en caché)",
+          //   productCached,
+          // );
+          // console.log("Resultado de la validación:", result, productKey);
           await this.redisClient.set(productKey, JSON.stringify(result));
         }
       }
@@ -103,6 +106,20 @@ export class ProductsService {
 
     const result = stringMatched(parfum.product, volumeRegExp);
     if (result) parfum.volume = result[0];
+
+    const validTypes = ["EDC", "EDP", "EDT", "Other"] as const;
+
+    function isValidParfumType(value: string): value is TypeParfum {
+      return validTypes.includes(value as TypeParfum);
+    }
+
+    const typeResult = stringMatched(parfum.product, nameRegExp);
+
+    if (typeResult && isValidParfumType(typeResult[0])) {
+      parfum.type_parfum = typeResult[0] as TypeParfum;
+    } else {
+      parfum.type_parfum = "Other";
+    }
 
     const parfumNameCleaned = cleanText(parfum.product, nameRegExp);
     parfum.product = parfumNameCleaned;
@@ -137,6 +154,7 @@ export class ProductsService {
           tx,
         );
 
+        console.log({ productId });
         // console.log("productDetails", productId, product);
 
         const productDetail =

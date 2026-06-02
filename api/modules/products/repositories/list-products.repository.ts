@@ -5,7 +5,12 @@ import {
   shopTable,
   TransactionType,
 } from "api/db/schema";
-import { Product, ProductFilters, ProductUpdate } from "../interfaces";
+import {
+  Product,
+  ProductFilters,
+  ProductUpdate,
+  TypeParfum,
+} from "../interfaces";
 import { and, eq, ilike, sql } from "drizzle-orm";
 import { db } from "api/db/index";
 
@@ -84,7 +89,9 @@ export class ListProductsRepository {
       if (filters?.shop)
         conditions.push(eq(listProductPaginated.shop, filters.shop));
       if (filters?.type_parfum)
-        conditions.push(eq(listProductPaginated.type, filters.type_parfum));
+        conditions.push(
+          eq(listProductPaginated.type, filters.type_parfum as TypeParfum),
+        );
       if (term)
         conditions.push(ilike(listProductPaginated.product, `%${term}%`));
 
@@ -135,6 +142,8 @@ export class ListProductsRepository {
 
         totalCount = totalQuery.at(0)?.count ?? 0;
         result = dataQuery;
+
+        console.log(result);
 
         this.totalPagesCache.set(cacheKey, {
           count: totalCount,
