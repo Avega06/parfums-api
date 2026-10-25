@@ -7,7 +7,8 @@
     "dev:vercel": "vercel dev",
     "build": "bun build api/server.ts --outdir dist --target bun --external electron --external playwright --external playwright-core",
     "start": "bun run api/server.ts",
-    "deploy": "vercel --prod"
+    "deploy": "vercel --prod",
+    "db:seed": "tsx --env-file=.env api/scripts/upset-notes.ts"
   },
   "dependencies": {
     "@hono/zod-validator": "^0.4.3",
@@ -15,15 +16,16 @@
     "@types/bun": "^1.2.2",
     "drizzle-orm": "^0.39.2",
     "hono": "^4.6.20",
-    "sqlite3": "^5.1.7",
-    "redis": "^4.7.0",
     "playwright": "^1.50.1",
+    "redis": "^4.7.0",
+    "sqlite3": "^5.1.7",
     "zod": "^3.24.2"
   },
   "devDependencies": {
-    "chromium-bidi": "^1.2.0",
     "@cloudflare/workers-types": "^4.20250109.0",
+    "chromium-bidi": "^1.2.0",
     "drizzle-kit": "^0.30.4",
+    "tsx": "^4.23.13",
     "wrangler": "^3.101.0"
   }
 }

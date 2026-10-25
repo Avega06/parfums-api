@@ -81,8 +81,8 @@ export class BrandsService {
 
     if (selectedBrand) {
       parfum.brand = selectedBrand;
-    }
-    if (!parfum.brand) {
+    } else {
+      parfum.brand = "PENDING";
       //customLogger("This products has not a brand, check db:", product);
     }
 

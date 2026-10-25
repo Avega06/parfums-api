@@ -51,6 +51,19 @@ const brands: Brand[] = [
   { name: "Ministry of Oud" },
   { name: "Marc Jacobs" },
   { name: "Grès" },
+  { name: "Nike" },
+  { name: "Tom Ford" },
+  { name: "Martin Lion" },
+  { name: "Al Wataniah" },
+  { name: "Khadlaj" },
+  { name: "Adidas" },
+  { name: "Nautica" },
+  { name: "Chanel" },
+  { name: "L'HAYA" },
+  { name: "Juliette Has A Gun" },
+  { name: "Gloria Vanderbilt" },
+  { name: "Juicy Couture" },
+  { name: "Le Chameau" },
 ];
 
 const shops: Shop[] = [

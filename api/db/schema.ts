@@ -1,4 +1,5 @@
 import { sqliteTable, text, real, integer } from "drizzle-orm/sqlite-core";
+import { relations } from "drizzle-orm";
 import { randomUUID } from "crypto";
 import { db } from ".";
 
@@ -20,6 +21,51 @@ export const parfumTable = sqliteTable("parfum", {
   }),
   isDeleted: integer("is_deleted", { mode: "boolean" }).default(false),
   deletedAt: text("deleted_at"),
+
+  // Nuevas columnas de relación
+  fragranticaId: integer("fragrantica_id").references(
+    () => fragranticaMetadataTable.fragranticaId,
+    { onDelete: "set null" },
+  ),
+  confidence: text("confidence").default("low"),
+});
+
+// Tabla Fragrantica Metadata
+export const fragranticaMetadataTable = sqliteTable("fragrantica_metadata", {
+  fragranticaId: integer("fragrantica_id").primaryKey(),
+  brand: text("brand"),
+  name: text("name"),
+  year: integer("year"),
+  gender: text("gender"),
+  longevityAverage: real("longevity_average"),
+  longevityHistogram: text("longevity_histogram", { mode: "json" }).$type<
+    { bucket: number; count: number }[]
+  >(),
+  sillageAverage: real("sillage_average"),
+  sillageHistogram: text("sillage_histogram", { mode: "json" }).$type<
+    { bucket: number; count: number }[]
+  >(),
+});
+
+// Tabla de Notas
+export const notesTable = sqliteTable("notes", {
+  noteId: integer("note_id").primaryKey({ autoIncrement: true }),
+  name: text("name").notNull(),
+  nameEs: text("name_es"),
+  imageId: integer("image_id"),
+});
+
+// Tabla Intermedia Fragrantica <-> Notes
+export const fragranticaNotesTable = sqliteTable("fragrantica_notes", {
+  fragranticaId: integer("fragrantica_id")
+    .notNull()
+    .references(() => fragranticaMetadataTable.fragranticaId, {
+      onDelete: "cascade",
+    }),
+  noteId: integer("note_id")
+    .notNull()
+    .references(() => notesTable.noteId, { onDelete: "cascade" }),
+  tier: text("tier", { enum: ["top", "middle", "base", "flat"] }).notNull(),
 });
 
 export const parfumBrandsTable = sqliteTable("brands_type", {
@@ -90,6 +136,36 @@ export const countProductTable = sqliteTable("count_products", {
   total_products: integer("total_products").notNull(),
 });
 
+// --- Drizzle Relational Mappings ---
+
+export const parfumRelations = relations(parfumTable, ({ one }) => ({
+  fragrantica: one(fragranticaMetadataTable, {
+    fields: [parfumTable.fragranticaId],
+    references: [fragranticaMetadataTable.fragranticaId],
+  }),
+}));
+
+export const fragranticaRelations = relations(
+  fragranticaMetadataTable,
+  ({ many }) => ({
+    notes: many(fragranticaNotesTable),
+  }),
+);
+
+export const fragranticaNotesRelations = relations(
+  fragranticaNotesTable,
+  ({ one }) => ({
+    fragrantica: one(fragranticaMetadataTable, {
+      fields: [fragranticaNotesTable.fragranticaId],
+      references: [fragranticaMetadataTable.fragranticaId],
+    }),
+    note: one(notesTable, {
+      fields: [fragranticaNotesTable.noteId],
+      references: [notesTable.noteId],
+    }),
+  }),
+);
+
 export type InsertParfum = typeof parfumTable.$inferInsert;
 export type SelectParfum = typeof parfumTable.$inferSelect;
 
@@ -101,3 +177,48 @@ export type SelectList = typeof listTable.$inferSelect;
 
 export type InsertBrands = typeof parfumBrandsTable.$inferInsert;
 export type SelectBrands = typeof parfumBrandsTable.$inferSelect;
+
+// --- Tipos de datos para el JSON de Fragrantica ---
+
+export type NoteItem = {
+  note_id: number;
+  name: string;
+  name_es: string | null;
+  image_id: number | null;
+};
+
+export type FragranticaData = {
+  id: number;
+  brand: string | null;
+  name: string | null;
+  year: number | null;
+  gender: string | null;
+  longevity: {
+    average: number | null;
+    histogram: { bucket: number; count: number }[];
+  };
+  sillage: {
+    average: number | null;
+    histogram: { bucket: number; count: number }[];
+  };
+  notes: {
+    tiered: {
+      top: NoteItem[];
+      middle: NoteItem[];
+      base: NoteItem[];
+    };
+    flat: NoteItem[];
+  };
+};
+
+// --- Mapeo del esquema de la vista creada en Turso ---
+
+export const vParfumsFragrantica = sqliteTable("v_parfums_fragrantica", {
+  parfumId: text("parfum_id").notNull(),
+  parfumName: text("parfum_name").notNull(),
+  fragrantica: text("fragrantica", {
+    mode: "json",
+  }).$type<FragranticaData | null>(),
+});
+
+export type SelectVParfumsFragrantica = typeof vParfumsFragrantica.$inferSelect;
