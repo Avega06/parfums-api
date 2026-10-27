@@ -76,7 +76,7 @@ parfumsController.get("/product_term/:term", async (c: Context) => {
 parfumsController.get("/shop/:name", async (c: Context) => {
   const name = c.req.param("name");
 
-  const shop = await shopInfoRepository.getShopInfoByName(name!);
+  const shop = await shopService.getShopInfoByName(name!);
 
   return c.json(shop);
 });
