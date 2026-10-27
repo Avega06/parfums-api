@@ -13,12 +13,14 @@ import { ProductsService } from "../services";
 import { ListProductsRepository } from "../repositories/list-products.repository";
 import { ShopService } from "../services/shops.service";
 import { BrandsService } from "../services/brands.service";
+import { SpecsProductRepository } from "../repositories/specs-product.repository";
 
 export const parfumsController = new Hono();
 
 const productRepository = new ProductRepository();
 const brandsRepository = new BrandsRepository();
 const listProductsRepository = new ListProductsRepository();
+const specsProductRepository = new SpecsProductRepository();
 
 const brandsService = new BrandsService(brandsRepository);
 
@@ -26,6 +28,7 @@ const productsService = new ProductsService(
   productRepository,
   brandsService,
   listProductsRepository,
+  specsProductRepository,
 );
 
 const shopInfoRepository = new ShopInfoRepository();
@@ -53,7 +56,7 @@ parfumsController.get(
 parfumsController.get("/product/:term", async (c: Context) => {
   const term = c.req.param("term");
 
-  const result = await productsService.getProductByName(term);
+  const result = await productsService.getProductByName(term!);
 
   return c.json(result);
 });
@@ -63,7 +66,7 @@ parfumsController.get("/product_term/:term", async (c: Context) => {
 
   console.log(term);
 
-  const result = await productsService.getProductByTerm(term);
+  const result = await productsService.getProductByTerm(term!);
 
   return c.json({
     products: result,
@@ -73,9 +76,17 @@ parfumsController.get("/product_term/:term", async (c: Context) => {
 parfumsController.get("/shop/:name", async (c: Context) => {
   const name = c.req.param("name");
 
-  const shop = await shopInfoRepository.getShopInfoByName(name);
+  const shop = await shopInfoRepository.getShopInfoByName(name!);
 
   return c.json(shop);
+});
+
+parfumsController.get("/product-spec/:productId", async (c: Context) => {
+  const productId = c.req.param("productId");
+
+  const specs = await productsService.getProductSpecs(productId!);
+
+  return c.json(specs);
 });
 
 parfumsController.post(

@@ -22,6 +22,7 @@ import {
 } from "api/helpers/index";
 
 import { scrapperModel } from "api/modules/scrapper/configs/scrapping.model";
+import { SpecsProductRepository } from "../repositories/specs-product.repository";
 
 export class ProductsService {
   #websiteConfig = scrapperModel.scraping_config;
@@ -31,6 +32,7 @@ export class ProductsService {
     private productRepository: ProductRepository,
     private brandsService: BrandsService,
     private listProductsRepository: ListProductsRepository,
+    private specsProductRepository: SpecsProductRepository,
   ) {
     this.initRedis();
   }
@@ -251,6 +253,10 @@ export class ProductsService {
 
   async getShopByName(shopName: string) {
     return await this.productRepository.getProductShopByName(shopName);
+  }
+
+  async getProductSpecs(productId: string) {
+    return await this.specsProductRepository.getProductSpecs(productId);
   }
 
   filterLinkWebsites() {
